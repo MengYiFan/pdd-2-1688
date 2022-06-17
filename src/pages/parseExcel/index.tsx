@@ -3,7 +3,7 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   setup() {
     const onFileChange = async (event: Event): Promise<void> => {
-      const file: File | null = event?.target?.files?.[0] ?? null
+      const file: File | null = (event.target as HTMLInputElement).files?.[0] ?? null
 
       if (!file) {
         return
@@ -12,21 +12,23 @@ export default defineComponent({
       const XLSX = await import('xlsx')
       const reader: FileReader = new FileReader()
 
-      reader.onload = (evt: Event): void => {
-        let workbook = XLSX.read(evt.target.result, {
+      reader.onload = (evt: ProgressEvent<FileReader>): void => {
+        let workbook = XLSX.read((evt.target as FileReader).result, {
           type: 'binary'
         })
 
-        let sheetData = workbook.SheetNames.map((sheetName) => {
+        let sheetData = workbook.SheetNames.map((sheetName: string): any => {
           let ws = workbook.Sheets[sheetName],
-            data = XLSX.utils.sheet_to_json(ws, {
-              header: 1,
-              defval: '-'
-            })
+              data: Array<Array<string>> = XLSX.utils.sheet_to_json(ws, {
+                header: 1,
+                defval: '-',
+                raw: true
+              })
 
+          console.log(11, data)
           return {
             sheetName,
-            data: data.filter((item) => !item.every((v) => v === ''))
+            data: data.filter((item: string[]) => !item.every((v) => v === ''))
           }
         })
 
