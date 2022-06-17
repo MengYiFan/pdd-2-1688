@@ -1,4 +1,6 @@
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from 'vue'
+import { ElButton, ElMessage } from 'element-plus'
+import './index.scss'
 
 export default defineComponent({
   setup() {
@@ -22,28 +24,45 @@ export default defineComponent({
               data: Array<Array<string>> = XLSX.utils.sheet_to_json(ws, {
                 header: 1,
                 defval: '-',
-                raw: true
+                raw: true,
+                rawNumbers: true
               })
 
-          console.log(11, data)
           return {
             sheetName,
             data: data.filter((item: string[]) => !item.every((v) => v === ''))
           }
         })
 
-        console.log(sheetData)
+        console.log('Sheet data: ', sheetData)
+
+        ElMessage({
+          message: `<pre>${ JSON.stringify(sheetData, null, 2) }</pre>`,
+          dangerouslyUseHTMLString: true,
+          duration: 1000,
+          showClose: true
+        })
       }
 
       reader.readAsBinaryString(file)
     }
 
     return () => (
-      <div class="index-container">
+      <div class="parse-excel-container">
+        <ElButton type="info" style={{ backgroundColor: '#232323' }} >
+          <label for="input-file" style={{ cursor: 'pointer' }}>
+            上传 Excel 解析
+          </label>
+        </ElButton>
+        
         <input
+          id="input-file"
           type="file"
+          style={{
+            display: 'none'
+          }}
           onChange={onFileChange}
-        ></input>
+        />
       </div>
     )
   }
