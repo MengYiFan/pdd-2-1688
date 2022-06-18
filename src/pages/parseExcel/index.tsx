@@ -28,6 +28,8 @@ export default defineComponent({
                 rawNumbers: true
               })
 
+          console.log('Raw data: ', ws)
+          
           return {
             sheetName,
             data: data.filter((item: string[]) => !item.every((v) => v === ''))
