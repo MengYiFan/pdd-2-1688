@@ -17,7 +17,7 @@ export default defineComponent({
 
     return () => (
       <ElCard class="goods-container c-content-box">
-        <ElRow class="c-spacing-bottom" gutter="20">
+        <ElRow class="c-spacing-bottom" gutter={20}>
           <ElCol span={ 6 } class="c-title c-text-center">
             <ElAvatar size={60} src="https://empty">
               <img src={ data.hd_thumb_url } />
@@ -40,7 +40,7 @@ export default defineComponent({
           </ElCol>
         </ElRow>
 
-        <ElRow class="c-spacing-bottom" gutter="20">
+        <ElRow class="c-spacing-bottom" gutter={20}>
           <ElCol span={ 6 } class="c-title c-text-center">品牌</ElCol>
           <ElCol span={ 18 }>
             { data.brand_name }

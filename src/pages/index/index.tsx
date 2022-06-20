@@ -13,7 +13,7 @@ import Goods from './components/goods'
 const MATCH_SCORE = 0.75
 const MAX_MATCH_LENGTH = 25
 
-const handleShowGoodsDesc = ({ goods_desc }) => {
+const handleShowGoodsDesc = ({ goods_desc }: { goods_desc: string }) => {
   ElNotification({
     title: '描述',
     message: goods_desc,
@@ -30,11 +30,11 @@ const fmtResult = (result: Array<any>) => {
     if (MATCH_SCORE > score && amount < MAX_MATCH_LENGTH) {
       amount++
 
-      matches.forEach(match => {
+      matches.forEach((match: any) => {
         const { key, indices } = match
         let highlightList = String(item[key]).split('')
 
-        indices.forEach(indice => {
+        indices.forEach((indice: Array<number>) => {
           const [start, end] = indice
 
           highlightList[start] = `<span class="c-highlight">${ highlightList[start] }`
@@ -166,7 +166,7 @@ export default defineComponent({
                 width="120"
                 label="条码"
                 v-slots={{
-                  default: scope => {
+                  default: (scope: any) => {
                     return (
                       <div v-html={ scope.row.bar_code }></div>
                     )
@@ -181,7 +181,7 @@ export default defineComponent({
                 width="120"
                 label="商品名称"
                 v-slots={{
-                  default: scope => {
+                  default: (scope: any) => {
                     return (
                       <a target="_blank" href={ scope.row.network_disk }>
                         <label v-html={ scope.row.goods_name }></label>
@@ -197,7 +197,7 @@ export default defineComponent({
                 width="120"
                 label="商品描述"
                 v-slots={{
-                  default: scope => {
+                  default: (scope: any) => {
                     if (!scope.row.goods_desc) {
                       return '-'
                     }
@@ -215,7 +215,7 @@ export default defineComponent({
               <ElTableColumn 
                 label="品牌"
                 v-slots={{
-                  default: scope => {
+                  default: (scope: any) => {
                     return (
                       <div v-html={ scope.row.brand_name }></div>
                     )
@@ -226,7 +226,7 @@ export default defineComponent({
               <ElTableColumn 
                 label="网盘地址"
                 v-slots={{
-                  default: scope => {
+                  default: (scope: any) => {
                     return (
                       <a target="_blank" href={ scope.row.network_disk }>网盘地址</a>
                     )
