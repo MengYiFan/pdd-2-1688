@@ -1,6 +1,6 @@
 import { defineComponent, ref, watch, reactive } from 'vue'
-import { ElBacktop, ElInput, ElTable, ElTableColumn } from 'element-plus'
-import { Search as searchIcon } from '@element-plus/icons-vue'
+import { ElBacktop, ElInput, ElTable, ElTableColumn, ElIcon, ElNotification, vLoading } from 'element-plus'
+import { Search as searchIcon, InfoFilled } from '@element-plus/icons-vue'
 import './index.scss'
 
 import { data as data1688 } from '../../data/czm_1688.json'
@@ -11,7 +11,15 @@ import _ from 'lodash'
 import Goods from './components/goods'
 
 const MATCH_SCORE = 0.75
-const MAX_MATCH_LENGTH = 20
+const MAX_MATCH_LENGTH = 25
+
+const handleShowGoodsDesc = ({ goods_desc }) => {
+  ElNotification({
+    title: '描述',
+    message: goods_desc,
+    duration: 2000
+  })
+}
 
 const fmtResult = (result: Array<any>) => {
   let amount = 0
@@ -47,6 +55,9 @@ const fmtResult = (result: Array<any>) => {
 }
 
 export default defineComponent({
+  directives: {
+    loading: vLoading
+  },
   setup() {
     // https://fusejs.io/api/options.html
     const fuse1688 = new Fuse(data1688.slice(2), {
@@ -62,11 +73,21 @@ export default defineComponent({
       effectiveSearchVal: ''
     })
     let isInited = ref(false)
+    const loading = ref(false)
 
     const searchValue = ref('')
 
     watch(searchValue, (next) => {
       const fn = _.debounce(function () {
+        loading.value = true
+        if (!next) {
+          info.currGoodsData = null
+          info.list = []
+          loading.value = false
+
+          return
+        }
+
         let effectiveSearchVal = next
         const currGoodsData = pddGoodsList.find(goods => String(goods.id) === next || goods.goods_name.indexOf(next) !== -1)
         info.currGoodsData = currGoodsData || null
@@ -81,7 +102,11 @@ export default defineComponent({
         if (!isInited.value) {
           isInited.value = isInited.value || !!info.currGoodsData || info.list.length
         }
-      }, 1000)
+
+        setTimeout(() => {
+          loading.value = false
+        }, 360)
+      }, 800)
 
       fn()
     })
@@ -119,79 +144,99 @@ export default defineComponent({
           '' 
         }
         
-        { 
-          info.currGoodsData ? 
-          <Goods 
-            class="c-spacing-bottom" 
-            style={{
-              position: 'sticky',
-              top: '-20px',
-              zIndex: 999
-            }}
-            data={ info.currGoodsData } 
-          /> : 
-          '' 
-        }
-        
-        {
-          info.list.length ? 
-          <ElTable class="c-content-box" data={ info.list }>
-            <ElTableColumn 
-              width="120"
-              label="条码"
-              v-slots={{
-                default: scope => {
-                  return (
-                    <div v-html={ scope.row.bar_code }></div>
-                  )
-                }
+        <div v-loading={ loading.value }>
+          { 
+            info.currGoodsData ? 
+            <Goods 
+              class="c-spacing-bottom" 
+              style={{
+                position: 'sticky',
+                top: '-20px',
+                zIndex: 999
               }}
-            />
+              data={ info.currGoodsData } 
+            /> : 
+            '' 
+          }
+          
+          {
+            info.list.length ? 
+            <ElTable class="c-content-box" data={ info.list }>
+              <ElTableColumn 
+                width="120"
+                label="条码"
+                v-slots={{
+                  default: scope => {
+                    return (
+                      <div v-html={ scope.row.bar_code }></div>
+                    )
+                  }
+                }}
+              />
 
-            <ElTableColumn width="60" label="Cost" prop="cost_price"></ElTableColumn>
-            <ElTableColumn width="60" label="Selling" prop="selling_price"></ElTableColumn>
+              <ElTableColumn width="60" label="Cost" prop="cost_price"></ElTableColumn>
+              <ElTableColumn width="60" label="Selling" prop="selling_price"></ElTableColumn>
 
-            <ElTableColumn 
-              width="120"
-              label="商品名称"
-              v-slots={{
-                default: scope => {
-                  return (
-                    <a target="_blank" href={ scope.row.network_disk }>
-                      <label v-html={ scope.row.goods_name }></label>
-                    </a>
-                  )
-                }
-              }}
-            />
+              <ElTableColumn 
+                width="120"
+                label="商品名称"
+                v-slots={{
+                  default: scope => {
+                    return (
+                      <a target="_blank" href={ scope.row.network_disk }>
+                        <label v-html={ scope.row.goods_name }></label>
+                      </a>
+                    )
+                  }
+                }}
+              />
 
-            <ElTableColumn width="60" label="Row index" prop="row_index"></ElTableColumn>
-            <ElTableColumn label="商品描述" prop="goods_desc"></ElTableColumn>
+              <ElTableColumn width="60" label="Row index" prop="row_index"></ElTableColumn>
 
-            <ElTableColumn 
-              label="品牌"
-              v-slots={{
-                default: scope => {
-                  return (
-                    <div v-html={ scope.row.brand_name }></div>
-                  )
-                }
-              }}
-            />
-            
-            <ElTableColumn 
-              label="网盘地址"
-              v-slots={{
-                default: scope => {
-                  return (
-                    <a target="_blank" href={ scope.row.network_disk }>网盘地址</a>
-                  )
-                }
-              }}
-            />
-          </ElTable> : 
-          ''
-        }
+              <ElTableColumn 
+                width="120"
+                label="商品描述"
+                v-slots={{
+                  default: scope => {
+                    if (!scope.row.goods_desc) {
+                      return '-'
+                    }
+
+                    return (
+                      <div class="c-vertical-center">
+                        Desc 
+                        <ElIcon onClick={() => { handleShowGoodsDesc(scope.row) }}><InfoFilled /></ElIcon>
+                      </div>
+                    )
+                  }
+                }}
+              />
+
+              <ElTableColumn 
+                label="品牌"
+                v-slots={{
+                  default: scope => {
+                    return (
+                      <div v-html={ scope.row.brand_name }></div>
+                    )
+                  }
+                }}
+              />
+              
+              <ElTableColumn 
+                label="网盘地址"
+                v-slots={{
+                  default: scope => {
+                    return (
+                      <a target="_blank" href={ scope.row.network_disk }>网盘地址</a>
+                    )
+                  }
+                }}
+              />
+            </ElTable> : 
+            ''
+          }
+        </div>
         
       </div>
     )
