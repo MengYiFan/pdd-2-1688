@@ -20,6 +20,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/pages/index/index')
   },
   {
+    path: '/parse/excel',
+    name: 'parseExcel',
+    component: () => import('@/pages/parseExcel/index')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import('@/pages/404')

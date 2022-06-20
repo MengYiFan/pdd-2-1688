@@ -2,3 +2,60 @@ body {
   padding: 0;
   margin: 0;
 }
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.c-content-box {
+  min-width: 320px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.c-horizontal-position-center {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.c-title {
+  font-weight: 100;
+  font-size: 13px;
+  color: #808080;
+}
+
+.c-text-center {
+  text-align: center;
+}
+
+.c-spacing-bottom {
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c-highlight {
+  padding: 0 4px;
+  background-color: yellow;
+}
+
+.el-row {
+  align-items: center;
+}
+
+.c-vertical-center {
+  display: flex;
+  align-items: center;
+}
