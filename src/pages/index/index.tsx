@@ -174,8 +174,8 @@ export default defineComponent({
                 }}
               />
 
-              <ElTableColumn width="60" label="Cost" prop="cost_price"></ElTableColumn>
-              <ElTableColumn width="60" label="Selling" prop="selling_price"></ElTableColumn>
+              <ElTableColumn width="70" label="Cost" prop="cost_price"></ElTableColumn>
+              <ElTableColumn width="70" label="Selling" prop="selling_price"></ElTableColumn>
 
               <ElTableColumn 
                 width="120"
@@ -183,7 +183,7 @@ export default defineComponent({
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <a target="_blank" href={ scope.row.network_disk }>
+                      <a target="_blank" href={ scope.row.link_1688 }>
                         <label v-html={ scope.row.goods_name }></label>
                       </a>
                     )
@@ -191,7 +191,7 @@ export default defineComponent({
                 }}
               />
 
-              <ElTableColumn width="60" label="Row index" prop="row_index"></ElTableColumn>
+              <ElTableColumn width="100" label="Row index" prop="row_index"></ElTableColumn>
 
               <ElTableColumn 
                 width="120"

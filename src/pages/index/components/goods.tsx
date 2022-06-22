@@ -1,6 +1,6 @@
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
 // import type { PropType } from 'vue'
-import { ElCard, ElRow, ElCol, ElAvatar } from 'element-plus'
+import { ElCard, ElRow, ElCol, ElAvatar, ElDescriptions, ElDescriptionsItem } from 'element-plus'
 
 export default defineComponent({
   props: {
@@ -12,6 +12,7 @@ export default defineComponent({
 
   setup(props) {
     const data: any = props.data
+    const viewMore = ref(false)
 
     if (!data) return 
 
@@ -46,6 +47,39 @@ export default defineComponent({
             { data.brand_name }
           </ElCol>
         </ElRow>
+
+        {
+          viewMore.value ? 
+            <ElDescriptions title="Sku List" size="large" column={3} direction="vertical" border={true}>
+              {
+                data.sku_list.map((sku: any) => {
+                  return (
+                    <div>
+                      <ElDescriptionsItem label="ID">{ sku.skuId }</ElDescriptionsItem>
+                      <ElDescriptionsItem label="名字" span={2}>{ sku.spec }</ElDescriptionsItem>
+                      <ElDescriptionsItem label="活动价">{ (sku.activityGroupPrice / 100).toFixed(2) }</ElDescriptionsItem>
+                      <ElDescriptionsItem label="拼单价">{ (sku.groupPrice / 100).toFixed(2) }</ElDescriptionsItem>
+                      <ElDescriptionsItem label="单买价">{ (sku.normalPrice / 100).toFixed(2) }</ElDescriptionsItem>
+                    </div>
+                  )
+                })
+              }
+            </ElDescriptions> : ''
+        }
+        
+        <div 
+          style={{
+            margin: '4px 0',
+            fontSize: '11px',
+            textAlign: 'center',
+            color: '#d6d6d6'
+          }} 
+          onClick={
+            () => { viewMore.value = !viewMore.value }
+          }
+        >
+          { viewMore.value ? '收起' : '展开'  } Skus
+        </div>
       </ElCard>
     )
   }
