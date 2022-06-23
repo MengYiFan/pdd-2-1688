@@ -120,6 +120,13 @@ export default defineComponent({
           class={ `search-input c-content-box c-horizontal-position-center${ isInited.value ? ' is-inited' : '' }` }
           size="large"
           clearable
+          style={{
+            position: 'sticky',
+            top: '-20px',
+            zIndex: 999,
+            marginLeft: '50%',
+            transform: 'translateX(-50%)'
+          }}
           placeholder="Please Input"
           suffix-icon={ searchIcon }
         />
@@ -149,11 +156,6 @@ export default defineComponent({
             info.currGoodsData ? 
             <Goods 
               class="c-spacing-bottom" 
-              style={{
-                position: 'sticky',
-                top: '-20px',
-                zIndex: 999
-              }}
               data={ info.currGoodsData } 
             /> : 
             '' 

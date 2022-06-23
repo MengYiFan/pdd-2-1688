@@ -25,7 +25,7 @@ export default defineComponent({
             </ElAvatar>
           </ElCol>
           <ElCol span={ 18 }>
-            { data.id }
+            <span v-clipboard={{ text: data.id }}>{ data.id }</span>
             <br />
             <span class="c-text-ellipsis">
               { data.goods_name }
@@ -35,6 +35,7 @@ export default defineComponent({
               style={{
                 fontSize: '12px',
               }}
+              v-clipboard={{ text: data.out_goods_sn }}
             >
               { data.out_goods_sn }
             </div>
@@ -43,7 +44,7 @@ export default defineComponent({
 
         <ElRow class="c-spacing-bottom" gutter={20}>
           <ElCol span={ 6 } class="c-title c-text-center">品牌</ElCol>
-          <ElCol span={ 18 }>
+          <ElCol span={ 18 } v-clipboard={{ text: data.brand_name }}>
             { data.brand_name }
           </ElCol>
         </ElRow>
@@ -55,8 +56,16 @@ export default defineComponent({
                 data.sku_list.map((sku: any) => {
                   return (
                     <div>
-                      <ElDescriptionsItem label="ID">{ sku.skuId }</ElDescriptionsItem>
-                      <ElDescriptionsItem label="名字" span={2}>{ sku.spec }</ElDescriptionsItem>
+                      <ElDescriptionsItem label="ID">
+                        <label v-clipboard={{ text: sku.skuId }} class="c-inline-flex">
+                          { sku.skuId }
+                        </label>
+                      </ElDescriptionsItem>
+                      <ElDescriptionsItem label="名字" span={2}>
+                        <label v-clipboard={{ text: sku.spec }} class="c-inline-flex">
+                          { sku.spec }
+                        </label>
+                      </ElDescriptionsItem>
                       <ElDescriptionsItem label="活动价">{ (sku.activityGroupPrice / 100).toFixed(2) }</ElDescriptionsItem>
                       <ElDescriptionsItem label="拼单价">{ (sku.groupPrice / 100).toFixed(2) }</ElDescriptionsItem>
                       <ElDescriptionsItem label="单买价">{ (sku.normalPrice / 100).toFixed(2) }</ElDescriptionsItem>

@@ -10,6 +10,7 @@
     "lint:fix": "eslint src --fix --ext .ts,.tsx"
   },
   "dependencies": {
+    "clipboard": "^2.0.11",
     "element-plus": "^2.2.5",
     "fuse.js": "^6.6.2",
     "lodash": "^4.17.21",

@@ -4,4 +4,14 @@ import router from './router'
 import { createApp } from 'vue'
 import 'element-plus/theme-chalk/index.css'
 
-createApp(App).use(router).use(store).mount('#app')
+import Clipboard from './directive/clipboard'
+
+const app = createApp(App)
+
+app.directive('clipboard', {
+  mounted(el, binding) {
+    new Clipboard(el, binding?.value?.text ?? 'Default Copy Value.')
+  }
+})
+
+app.use(router).use(store).mount('#app')
