@@ -2,8 +2,11 @@ import type { ObjectDirective, DirectiveBinding } from 'vue'
 import Factory from './factory'
 
 const Clipboard: ObjectDirective = {
-  mounted(el: HTMLElement, binding: DirectiveBinding) {
-    new Factory(el, binding?.value?.text ?? 'Default Copy Value.')
+  mounted(el: ClipboardHTMLElement, binding: DirectiveBinding) {
+    el.$_clipboard = new Factory(el, binding?.value?.text ?? 'Default Copy Value.')
+  },
+  unmounted(el: ClipboardHTMLElement) {
+    el?.$_clipboard?.destroyClipboard?.()
   }
 }
 

@@ -6,6 +6,7 @@ import ClipboardJS from 'clipboard'
 
 export default class Clipboard {
   clipboardVm: App<Element>
+  clipboardInstance: any
 
   constructor(hostEle: HTMLElement, text: string) {
     const label = document.createElement('label')
@@ -24,6 +25,7 @@ export default class Clipboard {
   }
 
   createComponent(text: string): App<Element> {
+    const that = this
     return createApp({
       name: 'clipboardComponent',
       setup() {
@@ -34,7 +36,7 @@ export default class Clipboard {
               (evt: any) => {
                 evt.preventDefault()
                 evt.stopPropagation()
-                Clipboard.copy(evt.currentTarget, text)
+                that.clipboardInstance = Clipboard.copy(evt.currentTarget, text)
               }
             }
           >
@@ -47,12 +49,13 @@ export default class Clipboard {
       async mounted() {
         await this.$nextTick()
         // hack: 待确认为什么第一次点击不复制
-        this.clipboard = Clipboard.copy(this.$el, text, false)
-      },
-      unmounted() {
-        this.clipboard?.destroy?.()
+        that.clipboardInstance = Clipboard.copy(this.$el, text, false)
       }
     })
+  }
+
+  destroyClipboard() {
+    this.clipboardInstance?.destroy?.()
   }
 
   static copy(eleSelector: string | Element, text: string | number, displayMessage: boolean = true): Clipboard {
