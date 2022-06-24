@@ -124,8 +124,7 @@ export default defineComponent({
             position: 'sticky',
             top: '-20px',
             zIndex: 999,
-            marginLeft: '50%',
-            transform: 'translateX(-50%)'
+            transform: 'translateX(0)'
           }}
           placeholder="Please Input"
           suffix-icon={ searchIcon }
@@ -170,7 +169,9 @@ export default defineComponent({
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <div v-html={ scope.row.bar_code }></div>
+                      <div v-clipboard={{ text: scope.row.bar_code }}>
+                        <label v-html={ scope.row.bar_code }></label>
+                      </div>
                     )
                   }
                 }}
@@ -185,7 +186,7 @@ export default defineComponent({
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <a target="_blank" href={ scope.row.link_1688 }>
+                      <a target="_blank" href={ scope.row.link_1688 } v-clipboard={{ text: scope.row.link_1688 }}>
                         <label v-html={ scope.row.goods_name }></label>
                       </a>
                     )

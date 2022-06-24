@@ -1,29 +1,29 @@
 import { ElIcon, ElMessage } from 'element-plus'
 import { DocumentCopy } from '@element-plus/icons-vue'
-import { createApp, onUnmounted } from 'vue'
+import { createApp } from 'vue'
+import type { App } from 'vue'
 import ClipboardJS from 'clipboard'
 
 export default class Clipboard {
-  clipboardVm: any;
+  clipboardVm: App<Element>
+
   constructor(hostEle: HTMLElement, text: string) {
-    const span = document.createElement('span')
-    Object.assign(span.style, {
-      marginLeft: '4px',
+    const label = document.createElement('label')
+    Object.assign(label.style, {
+      marginLeft: '6px',
       verticalAlign: 'text-top',
       cursor: 'pointer',
       zIndex: '99'
     })
-    span.style.cursor = 'pointer'
-    span.style.zIndex = '99'
     
-    const clipboardVm = this.createComponent(text)
-    clipboardVm.mount(span)
+    const clipboardVm: App<Element> = this.createComponent(text)
+    clipboardVm.mount(label)
     this.clipboardVm = clipboardVm
 
-    hostEle?.appendChild?.(span) 
+    hostEle?.appendChild?.(label) 
   }
 
-  createComponent(text: string) {
+  createComponent(text: string): App<Element> {
     return createApp({
       name: 'clipboardComponent',
       setup() {
@@ -32,7 +32,8 @@ export default class Clipboard {
             ref="copy"
             onClick={
               (evt: any) => {
-                console.log('click event: ', evt)
+                evt.preventDefault()
+                evt.stopPropagation()
                 Clipboard.copy(evt.currentTarget, text)
               }
             }
@@ -54,7 +55,7 @@ export default class Clipboard {
     })
   }
 
-  static copy(eleSelector: string, text: string | number, displayMessage: boolean = true) {
+  static copy(eleSelector: string | Element, text: string | number, displayMessage: boolean = true): Clipboard {
     let clipboard: any = new ClipboardJS(eleSelector, {
       text: () => {
         return String(text)
