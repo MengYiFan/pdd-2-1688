@@ -112,7 +112,7 @@ export default defineComponent({
     })
 
     return () => (
-      <div class="index-container" style={{ paddingBottom: '28px' }}>
+      <div class="index-container" style={{ paddingBottom: '28px', overflowX: 'hidden' }}>
         <ElBacktop right={20} bottom={36} target={`.index-container`} />
 
         <ElInput 
