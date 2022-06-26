@@ -124,7 +124,8 @@ export default defineComponent({
             position: 'sticky',
             top: '-20px',
             zIndex: 999,
-            transform: 'translateX(0)'
+            marginLeft: '50%',
+            transform: 'translateX(-50%)'
           }}
           placeholder="Please Input"
           suffix-icon={ searchIcon }

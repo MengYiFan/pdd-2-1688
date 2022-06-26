@@ -61,7 +61,12 @@ export default defineComponent({
                           { sku.skuId }
                         </label>
                       </ElDescriptionsItem>
-                      <ElDescriptionsItem label="名字" span={2}>
+                      <ElDescriptionsItem label="Sn">
+                        <label v-clipboard={{ text: sku.outSkuSn }} class="c-inline-flex">
+                          { sku.outSkuSn }
+                        </label>
+                      </ElDescriptionsItem>
+                      <ElDescriptionsItem label="名字">
                         <label v-clipboard={{ text: sku.spec }} class="c-inline-flex">
                           { sku.spec }
                         </label>
