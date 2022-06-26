@@ -1,5 +1,5 @@
 import type { ObjectDirective, DirectiveBinding } from 'vue'
-import Factory from './factory.tsx'
+import Factory from './factory'
 
 const Clipboard: ObjectDirective = {
   mounted(el: ClipboardHTMLElement, binding: DirectiveBinding) {
