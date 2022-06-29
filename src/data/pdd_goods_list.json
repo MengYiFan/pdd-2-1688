@@ -1,7 +1,851 @@
 {
-  "sessionId": "59fadfa12ada4a70b344036baefb5cc9",
-  "total": 14,
+  "sessionId": "c043d5724b4a489e90f36c2269a003fa",
+  "total": 17,
   "goods_list": [
+    {
+      "quantity": 2997,
+      "score": 0,
+      "resource": "",
+      "priority": null,
+      "sku_group_price": [
+        14600,
+        16600
+      ],
+      "sku_price": [
+        15600,
+        17600
+      ],
+      "origin_sku_group_price": [
+        14600,
+        16600
+      ],
+      "promotion_goods": null,
+      "mall_id": 861673389,
+      "mall_name": null,
+      "id": 381535033493,
+      "goods_name": "鲸动锻炼器男用自慰飞机杯震动按摩",
+      "goods_sn": null,
+      "goods_type": 1,
+      "cat_id": 18810,
+      "cat_name": "飞机杯",
+      "cat_name_1": "成人用品",
+      "cat_name_2": "男用器具",
+      "cat_name_3": "飞机杯",
+      "cat_name_4": null,
+      "cat_id_1": 16237,
+      "cat_id_2": 16238,
+      "cat_id_3": 18810,
+      "cat_id_4": 0,
+      "event_type": 0,
+      "display_priority": null,
+      "reserve_quantity": 0,
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/a283eaf8f0bea83af60186b4e6b3ca80.jpeg",
+      "image_url": null,
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/66096abb-2484-4be9-908c-fcb4de80ff01.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/3a2417bd128f9d4d3d3b4ffbcee9eba5.jpeg",
+      "is_onsale": true,
+      "sold_quantity": 0,
+      "resource_hover": null,
+      "off_sale_check": null,
+      "onsale_check": null,
+      "edit_check": null,
+      "gray_goods_high_quality_refund": false,
+      "share_desc": null,
+      "goods_desc": "鲸动锻炼器男用自慰飞机杯震动按摩",
+      "activity_title": null,
+      "is_card_secret": false,
+      "market_price": 18800,
+      "out_goods_sn": "SX-6030-86-90",
+      "sold_quantity_for_thirty_days": 0,
+      "fav_cnt": 0,
+      "multi_treasure": false,
+      "multi_treasure_status": 0,
+      "if_new_goods": false,
+      "tag_category_list": [],
+      "goods_info_score_dto": null,
+      "goods_inspect_score": {
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
+      },
+      "created_at": 1656325467,
+      "pre_sale_time": 0,
+      "shipment_limit_second": 86400,
+      "is_group_pre_sale": false,
+      "guide_target": 10001,
+      "over_sell": false,
+      "market_labels": null,
+      "labels": [],
+      "sku_type": 0,
+      "sku_count": 3,
+      "sku_list": [
+        {
+          "spec": "体验套餐 私享玩趣鲸动锻炼器",
+          "skuId": 1211920898435,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "",
+          "isOnsale": true,
+          "normalPrice": 15600,
+          "groupPrice": 14600,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            301322,
+            12352531795
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "锻炼套餐 私享玩趣鲸动锻炼器",
+          "skuId": 1211920898436,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "",
+          "isOnsale": true,
+          "normalPrice": 17600,
+          "groupPrice": 16600,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            254145372,
+            12352531795
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "延时套餐 私享玩趣鲸动锻炼器",
+          "skuId": 1211920898437,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "",
+          "isOnsale": true,
+          "normalPrice": 17600,
+          "groupPrice": 16600,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            24624552,
+            12352531795
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        }
+      ],
+      "property_list": null,
+      "schedule_sale": {
+        "sale_type": 0,
+        "sale_time_fixed": null,
+        "sale_time": null,
+        "price_show": null,
+        "price_desc": null
+      },
+      "costTemplateId": 303351846671360,
+      "goods_price_score": null,
+      "is_pre_sale": false,
+      "pre_sale_sku_list": [],
+      "sku_id_to_sold_out_config": null,
+      "sold_out_to_presale_type": null,
+      "vegetable_sold_quantity": 0,
+      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":83372}",
+      "option_list": [
+        0,
+        9,
+        13,
+        54,
+        117
+      ],
+      "high_price_sku_count": null,
+      "advice_price_label": null,
+      "price_type": null,
+      "price_cut_rights_goods_count": 0,
+      "suggest_price": null,
+      "suggest_count": null,
+      "brand_name": "私享玩趣",
+      "goods_copy_shipping_type": null,
+      "price_delta": null,
+      "weighted_status": null,
+      "festival_goods": false,
+      "two_pieces_discount": 86,
+      "max_two_pieces_discount": 91,
+      "min_two_pieces_discount": 50,
+      "recommend_two_pieces_discount": 86,
+      "two_pieces_rule_vo": {
+        "two_pieces_percent_inform_vo": {
+          "min_two_pieces_discount": 50,
+          "max_two_pieces_discount": 91,
+          "recommend_two_pieces_discount": null,
+          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+        },
+        "close_two_pieces_inform_vo": {
+          "can_close": false,
+          "cant_close_inform_message": "当前分类下的商品不能取消折扣"
+        }
+      },
+      "neg_keyword_num": null,
+      "resource_guide_vo": {
+        "resource_guide_list": [
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "show": false
+          },
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "show": false
+          },
+          {
+            "id": 3,
+            "desc": "30日销量破0攻略",
+            "priority": 4,
+            "show": true
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "show": false
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "show": false
+          },
+          {
+            "id": 6,
+            "desc": "多多进宝",
+            "priority": 6,
+            "show": false
+          },
+          {
+            "id": 7,
+            "desc": "广告推广",
+            "priority": 5,
+            "show": false
+          },
+          {
+            "id": 8,
+            "desc": "商品立减券",
+            "priority": 4,
+            "show": false
+          }
+        ]
+      },
+      "resource_guide_vo_v2": {
+        "resource_guide_list": [
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "优化满2件折扣",
+            "corner_text": "获取流量",
+            "corner_style": 1
+          },
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "url": "pddmerchant://pddmerchant.com/goodsCommentDetail?goods_id=381535033493",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品评价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "同款高价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "url": "pddmerchant://pddmerchant.com/goods_analyse_detail?goods_id=381535033493&show_real_time=true&selected_time_tab=6",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品数据",
+            "corner_text": null,
+            "corner_style": 0
+          }
+        ]
+      },
+      "is_goods_name_need_optimize": false,
+      "ware_status": null,
+      "reject_status": null,
+      "reject_reason": null
+    },
+    {
+      "quantity": 567,
+      "score": 0,
+      "resource": "",
+      "priority": null,
+      "sku_group_price": [
+        11200,
+        11200
+      ],
+      "sku_price": [
+        12400,
+        12400
+      ],
+      "origin_sku_group_price": [
+        11200,
+        11200
+      ],
+      "promotion_goods": null,
+      "mall_id": 861673389,
+      "mall_name": null,
+      "id": 381510618549,
+      "goods_name": "小鸭子女用挑逗跳蛋指尖充电多频震动外出宿舍自慰器无声",
+      "goods_sn": null,
+      "goods_type": 1,
+      "cat_id": 18780,
+      "cat_name": "跳蛋",
+      "cat_name_1": "成人用品",
+      "cat_name_2": "女用器具",
+      "cat_name_3": "跳蛋",
+      "cat_name_4": null,
+      "cat_id_1": 16237,
+      "cat_id_2": 16251,
+      "cat_id_3": 18780,
+      "cat_id_4": 0,
+      "event_type": 0,
+      "display_priority": null,
+      "reserve_quantity": 0,
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/eaefa54c4576c9d52f0627e1cc42837a.jpeg",
+      "image_url": null,
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/9fa06ceb-400a-4be5-8fc1-9c8a56c3165f.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/bb4d80f01f59e39335af1182b1ee95b8.jpeg",
+      "is_onsale": true,
+      "sold_quantity": 0,
+      "resource_hover": null,
+      "off_sale_check": null,
+      "onsale_check": null,
+      "edit_check": null,
+      "gray_goods_high_quality_refund": false,
+      "share_desc": null,
+      "goods_desc": "小鸭子女用挑逗跳蛋指尖充电多频震动外出宿舍自慰器无声",
+      "activity_title": null,
+      "is_card_secret": false,
+      "market_price": 13200,
+      "out_goods_sn": "YY-31-013-55-58",
+      "sold_quantity_for_thirty_days": 0,
+      "fav_cnt": 0,
+      "multi_treasure": false,
+      "multi_treasure_status": 0,
+      "if_new_goods": false,
+      "tag_category_list": [],
+      "goods_info_score_dto": null,
+      "goods_inspect_score": {
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
+      },
+      "created_at": 1656320930,
+      "pre_sale_time": 0,
+      "shipment_limit_second": 86400,
+      "is_group_pre_sale": false,
+      "guide_target": 10001,
+      "over_sell": false,
+      "market_labels": null,
+      "labels": [],
+      "sku_type": 0,
+      "sku_count": 1,
+      "sku_list": [
+        {
+          "spec": "很黄的小鸭子跳蛋",
+          "skuId": 1211861734551,
+          "skuQuantity": 567,
+          "skuSoldQuantity": null,
+          "outSkuSn": "YY-31-013-55-58",
+          "isOnsale": true,
+          "normalPrice": 12400,
+          "groupPrice": 11200,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            12351201729
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        }
+      ],
+      "property_list": null,
+      "schedule_sale": {
+        "sale_type": 0,
+        "sale_time_fixed": null,
+        "sale_time": null,
+        "price_show": null,
+        "price_desc": null
+      },
+      "costTemplateId": 303351846671360,
+      "goods_price_score": null,
+      "is_pre_sale": false,
+      "pre_sale_sku_list": [],
+      "sku_id_to_sold_out_config": null,
+      "sold_out_to_presale_type": null,
+      "vegetable_sold_quantity": 0,
+      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":681336}",
+      "option_list": [
+        0,
+        9,
+        13,
+        54,
+        117
+      ],
+      "high_price_sku_count": null,
+      "advice_price_label": null,
+      "price_type": null,
+      "price_cut_rights_goods_count": 0,
+      "suggest_price": null,
+      "suggest_count": null,
+      "brand_name": "歪歪马",
+      "goods_copy_shipping_type": null,
+      "price_delta": null,
+      "weighted_status": null,
+      "festival_goods": false,
+      "two_pieces_discount": 85,
+      "max_two_pieces_discount": 91,
+      "min_two_pieces_discount": 50,
+      "recommend_two_pieces_discount": 86,
+      "two_pieces_rule_vo": {
+        "two_pieces_percent_inform_vo": {
+          "min_two_pieces_discount": 50,
+          "max_two_pieces_discount": 91,
+          "recommend_two_pieces_discount": null,
+          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+        },
+        "close_two_pieces_inform_vo": {
+          "can_close": false,
+          "cant_close_inform_message": "当前分类下的商品不能取消折扣"
+        }
+      },
+      "neg_keyword_num": null,
+      "resource_guide_vo": {
+        "resource_guide_list": [
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "show": false
+          },
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "show": false
+          },
+          {
+            "id": 3,
+            "desc": "30日销量破0攻略",
+            "priority": 4,
+            "show": true
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "show": false
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "show": false
+          },
+          {
+            "id": 6,
+            "desc": "多多进宝",
+            "priority": 6,
+            "show": false
+          },
+          {
+            "id": 7,
+            "desc": "广告推广",
+            "priority": 5,
+            "show": false
+          },
+          {
+            "id": 8,
+            "desc": "商品立减券",
+            "priority": 4,
+            "show": false
+          }
+        ]
+      },
+      "resource_guide_vo_v2": {
+        "resource_guide_list": [
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "优化满2件折扣",
+            "corner_text": "获取流量",
+            "corner_style": 1
+          },
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "url": "pddmerchant://pddmerchant.com/goodsCommentDetail?goods_id=381510618549",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品评价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "同款高价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "url": "pddmerchant://pddmerchant.com/goods_analyse_detail?goods_id=381510618549&show_real_time=true&selected_time_tab=6",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品数据",
+            "corner_text": null,
+            "corner_style": 0
+          }
+        ]
+      },
+      "is_goods_name_need_optimize": false,
+      "ware_status": null,
+      "reject_status": null,
+      "reject_reason": null
+    },
+    {
+      "quantity": 2799,
+      "score": 0,
+      "resource": "",
+      "priority": null,
+      "sku_group_price": [
+        14800,
+        15600
+      ],
+      "sku_price": [
+        16000,
+        16800
+      ],
+      "origin_sku_group_price": [
+        14800,
+        15600
+      ],
+      "promotion_goods": null,
+      "mall_id": 861673389,
+      "mall_name": null,
+      "id": 381501156065,
+      "goods_name": "玫瑰女用跳蛋吸吮情侣调情宿舍自慰器",
+      "goods_sn": null,
+      "goods_type": 1,
+      "cat_id": 18780,
+      "cat_name": "跳蛋",
+      "cat_name_1": "成人用品",
+      "cat_name_2": "女用器具",
+      "cat_name_3": "跳蛋",
+      "cat_name_4": null,
+      "cat_id_1": 16237,
+      "cat_id_2": 16251,
+      "cat_id_3": 18780,
+      "cat_id_4": 0,
+      "event_type": 0,
+      "display_priority": null,
+      "reserve_quantity": 0,
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/2e655d49aa74327c9d2a500f01a73ab6.jpeg",
+      "image_url": null,
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/9ffbb546-29e4-491c-8d29-044c47d2d3dd.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/ce852caa10410d80e84eb6b6983f0b34.jpeg",
+      "is_onsale": true,
+      "sold_quantity": 0,
+      "resource_hover": null,
+      "off_sale_check": null,
+      "onsale_check": null,
+      "edit_check": null,
+      "gray_goods_high_quality_refund": false,
+      "share_desc": null,
+      "goods_desc": "玫瑰女用跳蛋吸吮情侣调情宿舍自慰器",
+      "activity_title": null,
+      "is_card_secret": false,
+      "market_price": 18000,
+      "out_goods_sn": "SX-6018B-74-77",
+      "sold_quantity_for_thirty_days": 0,
+      "fav_cnt": 0,
+      "multi_treasure": false,
+      "multi_treasure_status": 0,
+      "if_new_goods": false,
+      "tag_category_list": [],
+      "goods_info_score_dto": null,
+      "goods_inspect_score": {
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
+      },
+      "created_at": 1656319672,
+      "pre_sale_time": 0,
+      "shipment_limit_second": 86400,
+      "is_group_pre_sale": false,
+      "guide_target": 10001,
+      "over_sell": false,
+      "market_labels": null,
+      "labels": [],
+      "sku_type": 0,
+      "sku_count": 3,
+      "sku_list": [
+        {
+          "spec": "念奴娇【粉色】",
+          "skuId": 1211837133029,
+          "skuQuantity": 567,
+          "skuSoldQuantity": null,
+          "outSkuSn": "SX-6018A-70-77",
+          "isOnsale": true,
+          "normalPrice": 16000,
+          "groupPrice": 14800,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            5694272535
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "相见欢【红色】",
+          "skuId": 1211837133030,
+          "skuQuantity": 987,
+          "skuSoldQuantity": null,
+          "outSkuSn": "SX-6018B-74-77",
+          "isOnsale": true,
+          "normalPrice": 16800,
+          "groupPrice": 15600,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            5714675076
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "花心动【白色】",
+          "skuId": 1211837133031,
+          "skuQuantity": 1245,
+          "skuSoldQuantity": null,
+          "outSkuSn": "SX-6018C-74-77",
+          "isOnsale": true,
+          "normalPrice": 16800,
+          "groupPrice": 15600,
+          "activityGroupPrice": null,
+          "skuThumbUrl": null,
+          "specIdList": [
+            5694263830
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        }
+      ],
+      "property_list": null,
+      "schedule_sale": {
+        "sale_type": 0,
+        "sale_time_fixed": null,
+        "sale_time": null,
+        "price_show": null,
+        "price_desc": null
+      },
+      "costTemplateId": 303351846671360,
+      "goods_price_score": null,
+      "is_pre_sale": false,
+      "pre_sale_sku_list": [],
+      "sku_id_to_sold_out_config": null,
+      "sold_out_to_presale_type": null,
+      "vegetable_sold_quantity": 0,
+      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":1000825}",
+      "option_list": [
+        0,
+        9,
+        13,
+        54,
+        117
+      ],
+      "high_price_sku_count": null,
+      "advice_price_label": null,
+      "price_type": null,
+      "price_cut_rights_goods_count": 0,
+      "suggest_price": null,
+      "suggest_count": null,
+      "brand_name": "OMYSKY/私享玩趣",
+      "goods_copy_shipping_type": null,
+      "price_delta": null,
+      "weighted_status": null,
+      "festival_goods": false,
+      "two_pieces_discount": 87,
+      "max_two_pieces_discount": 92,
+      "min_two_pieces_discount": 50,
+      "recommend_two_pieces_discount": 87,
+      "two_pieces_rule_vo": {
+        "two_pieces_percent_inform_vo": {
+          "min_two_pieces_discount": 50,
+          "max_two_pieces_discount": 92,
+          "recommend_two_pieces_discount": null,
+          "incorrect_inform_message": "应为5-9.2折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.2折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+        },
+        "close_two_pieces_inform_vo": {
+          "can_close": false,
+          "cant_close_inform_message": "当前分类下的商品不能取消折扣"
+        }
+      },
+      "neg_keyword_num": null,
+      "resource_guide_vo": {
+        "resource_guide_list": [
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "show": false
+          },
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "show": false
+          },
+          {
+            "id": 3,
+            "desc": "30日销量破0攻略",
+            "priority": 4,
+            "show": true
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "show": false
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "show": false
+          },
+          {
+            "id": 6,
+            "desc": "多多进宝",
+            "priority": 6,
+            "show": false
+          },
+          {
+            "id": 7,
+            "desc": "广告推广",
+            "priority": 5,
+            "show": false
+          },
+          {
+            "id": 8,
+            "desc": "商品立减券",
+            "priority": 4,
+            "show": false
+          }
+        ]
+      },
+      "resource_guide_vo_v2": {
+        "resource_guide_list": [
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "优化满2件折扣",
+            "corner_text": "获取流量",
+            "corner_style": 1
+          },
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "url": "pddmerchant://pddmerchant.com/goodsCommentDetail?goods_id=381501156065",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品评价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "url": null,
+            "is_list_show": false,
+            "is_show": false,
+            "entrance_text": "同款高价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "url": "pddmerchant://pddmerchant.com/goods_analyse_detail?goods_id=381501156065&show_real_time=true&selected_time_tab=6",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品数据",
+            "corner_text": null,
+            "corner_style": 0
+          }
+        ]
+      },
+      "is_goods_name_need_optimize": false,
+      "ware_status": null,
+      "reject_status": null,
+      "reject_reason": null
+    },
     {
       "quantity": 1416,
       "score": 0,
@@ -64,11 +908,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1655831007,
       "pre_sale_time": 0,
@@ -340,11 +1184,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1655222842,
       "pre_sale_time": 0,
@@ -549,7 +1393,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -616,11 +1460,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1655051964,
       "pre_sale_time": 0,
@@ -1005,18 +1849,18 @@
       "market_price": 18000,
       "out_goods_sn": "SM-7010-75-88",
       "sold_quantity_for_thirty_days": 0,
-      "fav_cnt": 0,
+      "fav_cnt": 1,
       "multi_treasure": false,
       "multi_treasure_status": 0,
       "if_new_goods": false,
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654966378,
       "pre_sale_time": 0,
@@ -1281,7 +2125,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -1348,11 +2192,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654968183,
       "pre_sale_time": 0,
@@ -1744,11 +2588,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654882401,
       "pre_sale_time": 0,
@@ -2014,7 +2858,7 @@
       "mall_id": 861673389,
       "mall_name": null,
       "id": 373762924753,
-      "goods_name": "智能加热吮吸飞机杯男用感应全自动发音脱敏宿舍神器自慰器机器人",
+      "goods_name": "智能加热吮吸飞机杯男用感应全自动自发热发音脱敏宿舍神器自慰器",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18810,
@@ -2042,7 +2886,7 @@
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "智能加热吮吸飞机杯男用感应全自动发音脱敏宿舍神器自慰器机器人",
+      "goods_desc": "智能加热吮吸飞机杯男用感应全自动自发热发音脱敏宿舍神器自慰器",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 26700,
@@ -2055,11 +2899,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654879788,
       "pre_sale_time": 0,
@@ -2286,7 +3130,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -2353,11 +3197,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654878309,
       "pre_sale_time": 0,
@@ -2664,11 +3508,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654705015,
       "pre_sale_time": 0,
@@ -2853,13 +3697,13 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
     },
     {
-      "quantity": 3195,
+      "quantity": 3194,
       "score": 0,
       "resource": "",
       "priority": null,
@@ -2879,7 +3723,7 @@
       "mall_id": 861673389,
       "mall_name": null,
       "id": 372404322153,
-      "goods_name": "智能震动真人体感男用飞机杯私处恒温加热按摩阴茎脱敏全套锻炼",
+      "goods_name": "智能震动真人体感男用飞机杯发声私处按摩阴茎脱敏全套锻炼",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18810,
@@ -2895,24 +3739,24 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-08/f3b1cd9481017a18de53a9210fd9de0e.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-28/3d4a2817db57b96dde9a527b94d686e6.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-08/ae2126fe-f35b-44db-9f40-31b816216a73.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-08/0b9b6878796918ef160005b7588520b7.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-08/c41eb365-d7af-4f3f-a865-5d1b5c622f4a.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-28/3dbd8e0530d05b8d738b46af3c465a17.jpeg",
       "is_onsale": true,
-      "sold_quantity": 2,
+      "sold_quantity": 3,
       "resource_hover": null,
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "智能震动真人体感男用飞机杯私处恒温加热按摩阴茎脱敏全套锻炼",
+      "goods_desc": "智能震动真人体感男用飞机杯发声私处按摩阴茎脱敏全套锻炼",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 13200,
       "out_goods_sn": "SM-7003B-50-55",
-      "sold_quantity_for_thirty_days": 2,
+      "sold_quantity_for_thirty_days": 3,
       "fav_cnt": 0,
       "multi_treasure": false,
       "multi_treasure_status": 0,
@@ -2920,11 +3764,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654618715,
       "pre_sale_time": 0,
@@ -3020,7 +3864,7 @@
         {
           "spec": "持久套餐 多频发言充电款(红 Red)",
           "skuId": 1207418893129,
-          "skuQuantity": 732,
+          "skuQuantity": 731,
           "skuSoldQuantity": null,
           "outSkuSn": "SM-7002B-50-55",
           "isOnsale": true,
@@ -3277,11 +4121,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1654611418,
       "pre_sale_time": 0,
@@ -3570,11 +4414,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1653919210,
       "pre_sale_time": 0,
@@ -3798,7 +4642,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -3870,11 +4714,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1653831722,
       "pre_sale_time": 0,
@@ -4099,7 +4943,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": true,
+      "is_goods_name_need_optimize": false,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -4166,11 +5010,11 @@
       "tag_category_list": [],
       "goods_info_score_dto": null,
       "goods_inspect_score": {
-        "score": null,
-        "problemsDesc": null,
-        "problemsCode": null,
-        "status": 0,
-        "taskId": null
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 340808445
       },
       "created_at": 1653819721,
       "pre_sale_time": 0,
