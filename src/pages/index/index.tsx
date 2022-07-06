@@ -1,5 +1,5 @@
 import { defineComponent, ref, watch, reactive } from 'vue'
-import { ElBacktop, ElInput, ElTable, ElTableColumn, ElIcon, ElNotification, vLoading } from 'element-plus'
+import { ElBacktop, ElInput, ElTable, ElTableColumn, ElIcon, ElNotification, vLoading, ElButton } from 'element-plus'
 import { Search as searchIcon, InfoFilled } from '@element-plus/icons-vue'
 import './index.scss'
 
@@ -54,6 +54,10 @@ const fmtResult = (result: Array<any>) => {
   }, [])
 }
 
+const openNewPage = ({ src, title }: { src: string, title: string }) => {
+  window.open(src, title)
+}
+
 export default defineComponent({
   directives: {
     loading: vLoading
@@ -78,37 +82,37 @@ export default defineComponent({
     const searchValue = ref('')
 
     watch(searchValue, (next) => {
-      const fn = _.debounce(function () {
-        loading.value = true
-        if (!next) {
-          info.currGoodsData = null
-          info.list = []
-          loading.value = false
-
-          return
-        }
-
-        let effectiveSearchVal = next
-        const currGoodsData = pddGoodsList.find(goods => String(goods.id) === next || goods.goods_name.indexOf(next) !== -1)
-        info.currGoodsData = currGoodsData || null
+      loading.value = true
+      if (!next) {
+        Object.assign(info, {
+          currGoodsData: null,
+          list: [],
+          effectiveSearchVal: ''
+        })
         
-        if (currGoodsData?.out_goods_sn) {
-          effectiveSearchVal = currGoodsData.out_goods_sn
-        }
+        loading.value = false
 
-        info.effectiveSearchVal = effectiveSearchVal
-        info.list = fmtResult(fuse1688.search(effectiveSearchVal))
+        return
+      }
 
-        if (!isInited.value) {
-          isInited.value = isInited.value || !!info.currGoodsData || info.list.length
-        }
+      let effectiveSearchVal = next
+      const currGoodsData = pddGoodsList.find(goods => String(goods.id) === next || goods.goods_name.indexOf(next) !== -1)
+      info.currGoodsData = currGoodsData || null
+      
+      if (currGoodsData?.out_goods_sn) {
+        effectiveSearchVal = currGoodsData.out_goods_sn
+      }
 
-        setTimeout(() => {
-          loading.value = false
-        }, 360)
-      }, 800)
+      info.effectiveSearchVal = effectiveSearchVal
+      info.list = fmtResult(fuse1688.search(effectiveSearchVal))
 
-      fn()
+      if (!isInited.value) {
+        isInited.value = isInited.value || !!info.currGoodsData || info.list.length
+      }
+
+      setTimeout(() => {
+        loading.value = false
+      }, 200)
     })
 
     return () => (
@@ -150,6 +154,17 @@ export default defineComponent({
             <span class="c-title">搜索生效词: </span>{ info.effectiveSearchVal }</div> : 
           '' 
         }
+
+        {
+          !info.effectiveSearchVal ? pddGoodsList.map(goods => {
+            return (
+              <Goods 
+                class="c-spacing-bottom" 
+                data={ goods } 
+              />
+            )
+          }) : ''
+        }
         
         <div v-loading={ loading.value }>
           { 
@@ -170,7 +185,7 @@ export default defineComponent({
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <div v-clipboard={{ text: scope.row.bar_code }}>
+                      <div v-clipboard={{ text: scope.row.bar_code, format: (text: string) => text.replace(/<[^>]+>/g, '') }}>
                         <label v-html={ scope.row.bar_code }></label>
                       </div>
                     )
@@ -182,14 +197,22 @@ export default defineComponent({
               <ElTableColumn width="70" label="Selling" prop="selling_price"></ElTableColumn>
 
               <ElTableColumn 
-                width="120"
+                minWidth="180"
                 label="商品名称"
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <a target="_blank" href={ scope.row.link_1688 } v-clipboard={{ text: scope.row.link_1688 }}>
+                      <ElButton 
+                        link={ true } 
+                        v-clipboard={{ text: scope.row.link, location: 'front', format: (text: string) => text.replace(/<[^>]+>/g, '') }}
+                        data-src={ scope.row.link || '' }
+                        onClick={() => openNewPage({ 
+                          src: scope.row.link,
+                          title: scope.row.goods_name
+                        })}
+                      >
                         <label v-html={ scope.row.goods_name }></label>
-                      </a>
+                      </ElButton>
                     )
                   }
                 }}
@@ -207,9 +230,14 @@ export default defineComponent({
                     }
 
                     return (
-                      <div class="c-vertical-center">
-                        Desc 
-                        <ElIcon onClick={() => { handleShowGoodsDesc(scope.row) }}><InfoFilled /></ElIcon>
+                      <div 
+                        class="c-vertical-center"
+                        v-clipboard={{ text: scope.row.goods_desc, location: 'front' }}
+                      >
+                        <label>
+                          Desc 
+                          <ElIcon onClick={() => { handleShowGoodsDesc(scope.row) }}><InfoFilled /></ElIcon>
+                        </label>
                       </div>
                     )
                   }
@@ -232,7 +260,16 @@ export default defineComponent({
                 v-slots={{
                   default: (scope: any) => {
                     return (
-                      <a target="_blank" href={ scope.row.network_disk }>网盘地址</a>
+                      <ElButton 
+                        link={ true } 
+                        v-clipboard={{ text: scope.row.network_disk, location: 'front' }}
+                        onClick={() => openNewPage({ 
+                          src: scope.row.network_disk,
+                          title: scope.row.goods_name
+                        })}
+                      >
+                        网盘地址
+                      </ElButton>
                     )
                   }
                 }}

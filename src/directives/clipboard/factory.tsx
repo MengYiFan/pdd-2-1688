@@ -4,24 +4,48 @@ import { createApp } from 'vue'
 import type { App } from 'vue'
 import ClipboardJS from 'clipboard'
 
-export default class Clipboard {
-  clipboardVm: App<Element>
-  clipboardInstance: any
+enum Location {
+  backend = 'backend',
+  front = 'front'
+}
 
-  constructor(hostEle: HTMLElement, text: string) {
+interface clipboardParams {
+  text: string,
+  location: Location,
+  format: null | Function
+}
+
+export default class Clipboard {
+  clipboardVm: App<Element> | null = null
+  clipboardInstance?: any
+
+  constructor(hostEle: HTMLElement, { text, location = Location.backend, format = null }: clipboardParams) {
+    if (!text.length) {
+      console.log(`hostEle: ${hostEle}, Is an empty text`)
+      return
+    }
     const label = document.createElement('label')
     Object.assign(label.style, {
-      marginLeft: '6px',
       verticalAlign: 'text-top',
       cursor: 'pointer',
       zIndex: '99'
     })
-    
+
+    if (format && '[object Function]' === toString.call(format)) {
+      text = format(text)
+    }
+
     const clipboardVm: App<Element> = this.createComponent(text)
     clipboardVm.mount(label)
     this.clipboardVm = clipboardVm
 
-    hostEle?.appendChild?.(label) 
+    if (location === Location.front) {
+      label.style.marginRight = '6px'
+      hostEle?.insertBefore?.(label, hostEle.children[0])
+    } else {
+      label.style.marginLeft = '6px'
+      hostEle?.appendChild?.(label) 
+    }
   }
 
   createComponent(text: string): App<Element> {

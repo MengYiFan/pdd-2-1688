@@ -86,7 +86,8 @@ export default defineComponent({
             margin: '4px 0',
             fontSize: '11px',
             textAlign: 'center',
-            color: '#d6d6d6'
+            color: '#d6d6d6',
+            cursor: 'pointer'
           }} 
           onClick={
             () => { viewMore.value = !viewMore.value }
