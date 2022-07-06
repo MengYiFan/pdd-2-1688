@@ -1,15 +1,15 @@
 {
-  "sessionId": "c043d5724b4a489e90f36c2269a003fa",
+  "sessionId": "3725aed1199e4e2191ec934aa0ca38aa",
   "total": 17,
   "goods_list": [
     {
       "quantity": 2997,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        14600,
-        16600
+        12264,
+        13944
       ],
       "sku_price": [
         15600,
@@ -19,11 +19,16 @@
         14600,
         16600
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 12264,
+        "max_price": 13944,
+        "activity_id": "1652143895",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 381535033493,
-      "goods_name": "鲸动锻炼器男用自慰飞机杯震动按摩",
+      "goods_name": "自慰飞机杯男用10频全自动震动按摩脱敏磁吸充电防水锻炼器宿舍",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18810,
@@ -45,13 +50,15 @@
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/3a2417bd128f9d4d3d3b4ffbcee9eba5.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "鲸动锻炼器男用自慰飞机杯震动按摩",
+      "goods_desc": "自慰飞机杯男用10频全自动震动按摩脱敏磁吸充电防水锻炼器宿舍",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 18800,
@@ -68,7 +75,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1656325467,
       "pre_sale_time": 0,
@@ -90,8 +97,8 @@
           "isOnsale": true,
           "normalPrice": 15600,
           "groupPrice": 14600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 12264,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/dc068db0-a8c5-4b04-86b2-78048b493b26.jpeg",
           "specIdList": [
             301322,
             12352531795
@@ -110,8 +117,8 @@
           "isOnsale": true,
           "normalPrice": 17600,
           "groupPrice": 16600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 13944,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/02cb654a-07c5-463a-9a7f-d292b30c2e80.jpeg",
           "specIdList": [
             254145372,
             12352531795
@@ -130,8 +137,8 @@
           "isOnsale": true,
           "normalPrice": 17600,
           "groupPrice": 16600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 13944,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/08bc66de-eba5-42b5-a514-f988315e1948.jpeg",
           "specIdList": [
             24624552,
             12352531795
@@ -160,10 +167,12 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":83372}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
-        117
+        117,
+        123
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -176,16 +185,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 86,
-      "max_two_pieces_discount": 91,
+      "two_pieces_discount": 84,
+      "max_two_pieces_discount": 89,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 86,
+      "recommend_two_pieces_discount": 84,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 91,
+          "max_two_pieces_discount": 89,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-8.9折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.9折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -293,7 +302,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -301,11 +310,11 @@
     {
       "quantity": 567,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        11200,
-        11200
+        8400,
+        8400
       ],
       "sku_price": [
         12400,
@@ -315,11 +324,16 @@
         11200,
         11200
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 8400,
+        "max_price": 8400,
+        "activity_id": "1652158811",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 381510618549,
-      "goods_name": "小鸭子女用挑逗跳蛋指尖充电多频震动外出宿舍自慰器无声",
+      "goods_name": "小鸭子女用挑逗跳蛋指尖充电多频震动防水亲肤外出宿舍无声自慰器",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18780,
@@ -335,19 +349,21 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/eaefa54c4576c9d52f0627e1cc42837a.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-29/fc8c7b8417409c8a7937ed63401cf3b0.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/9fa06ceb-400a-4be5-8fc1-9c8a56c3165f.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/bb4d80f01f59e39335af1182b1ee95b8.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/0467f3a9-26dd-4032-8a45-26223a4a2329.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-29/9dcc2cdad065a2bb1a0f3a143c4bbbef.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "小鸭子女用挑逗跳蛋指尖充电多频震动外出宿舍自慰器无声",
+      "goods_desc": "小鸭子女用挑逗跳蛋指尖充电多频震动防水亲肤外出宿舍无声自慰器",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 13200,
@@ -364,7 +380,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1656320930,
       "pre_sale_time": 0,
@@ -386,8 +402,8 @@
           "isOnsale": true,
           "normalPrice": 12400,
           "groupPrice": 11200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 8400,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/7ed57706-d6ac-46de-8dac-0d27979f39e9.jpeg",
           "specIdList": [
             12351201729
           ],
@@ -415,10 +431,12 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":681336}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
-        117
+        117,
+        123
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -431,16 +449,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 85,
-      "max_two_pieces_discount": 91,
+      "two_pieces_discount": 83,
+      "max_two_pieces_discount": 88,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 86,
+      "recommend_two_pieces_discount": 83,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 91,
+          "max_two_pieces_discount": 88,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-8.8折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.8折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -548,7 +566,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -556,11 +574,11 @@
     {
       "quantity": 2799,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        14800,
-        15600
+        14652,
+        15444
       ],
       "sku_price": [
         16000,
@@ -570,11 +588,16 @@
         14800,
         15600
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 14652,
+        "max_price": 15444,
+        "activity_id": "1652333161",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 381501156065,
-      "goods_name": "玫瑰女用跳蛋吸吮情侣调情宿舍自慰器",
+      "goods_name": "玫瑰型跳蛋10频吸吮狂震充电防水亲肤舌爱情侣调情宿舍自慰器",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18780,
@@ -590,19 +613,21 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/2e655d49aa74327c9d2a500f01a73ab6.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/bf2c8c888c0307dec3bac83b956547b2.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/9ffbb546-29e4-491c-8d29-044c47d2d3dd.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-27/ce852caa10410d80e84eb6b6983f0b34.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-27/9ac65996-a9f7-4f16-8835-c2d76a963107.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/00261b923cb1ec61b3c78b84febe7884.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "玫瑰女用跳蛋吸吮情侣调情宿舍自慰器",
+      "goods_desc": "玫瑰型跳蛋10频吸吮狂震充电防水亲肤舌爱情侣调情宿舍自慰器",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 18000,
@@ -619,7 +644,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1656319672,
       "pre_sale_time": 0,
@@ -641,8 +666,8 @@
           "isOnsale": true,
           "normalPrice": 16000,
           "groupPrice": 14800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 14652,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/debfe610-8cd8-4ea1-95b1-07c6e76e3324.jpeg",
           "specIdList": [
             5694272535
           ],
@@ -660,8 +685,8 @@
           "isOnsale": true,
           "normalPrice": 16800,
           "groupPrice": 15600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 15444,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/8e859015-529b-423a-9a4d-3a194e9339ab.jpeg",
           "specIdList": [
             5714675076
           ],
@@ -679,8 +704,8 @@
           "isOnsale": true,
           "normalPrice": 16800,
           "groupPrice": 15600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 15444,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-27/d7d8d449-ab93-4ef0-8fb7-9054feec445c.jpeg",
           "specIdList": [
             5694263830
           ],
@@ -708,6 +733,7 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":1000825}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
@@ -841,19 +867,19 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
     },
     {
-      "quantity": 1416,
+      "quantity": 1415,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        8600,
-        8600
+        6450,
+        6450
       ],
       "sku_price": [
         9200,
@@ -863,7 +889,12 @@
         8600,
         8600
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 6450,
+        "max_price": 6450,
+        "activity_id": "1652219354",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 378802952443,
@@ -888,8 +919,10 @@
       "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-22/a70f2942-fc2e-4674-96c3-f347c08c99f2.jpeg",
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-22/66dbb352d89c8873129aac0a10455f9d.jpeg",
       "is_onsale": true,
-      "sold_quantity": 0,
-      "resource_hover": null,
+      "sold_quantity": 1,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -900,7 +933,7 @@
       "is_card_secret": false,
       "market_price": 9800,
       "out_goods_sn": "SX-6015A-38-43",
-      "sold_quantity_for_thirty_days": 0,
+      "sold_quantity_for_thirty_days": 1,
       "fav_cnt": 0,
       "multi_treasure": false,
       "multi_treasure_status": 0,
@@ -912,7 +945,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1655831007,
       "pre_sale_time": 0,
@@ -934,8 +967,8 @@
           "isOnsale": true,
           "normalPrice": 9200,
           "groupPrice": 8600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 6450,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-22/168f2e57-bc64-4dd5-b6ec-fb312e028799.jpeg",
           "specIdList": [
             1595176,
             12225044900
@@ -948,14 +981,14 @@
         {
           "spec": "大紫 携式迷你口红跳蛋",
           "skuId": 1205359604762,
-          "skuQuantity": 674,
+          "skuQuantity": 673,
           "skuSoldQuantity": null,
           "outSkuSn": "SX-6015B",
           "isOnsale": true,
           "normalPrice": 9200,
           "groupPrice": 8600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 6450,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-22/8a6e3900-0bfa-4c74-b312-692c9b05b89b.jpeg",
           "specIdList": [
             1726365,
             12225044900
@@ -984,10 +1017,14 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":83372}",
       "option_list": [
         0,
+        7,
         9,
         13,
+        21,
         54,
-        117
+        117,
+        123,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -1000,16 +1037,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 88,
-      "max_two_pieces_discount": 94,
+      "two_pieces_discount": 87,
+      "max_two_pieces_discount": 92,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 89,
+      "recommend_two_pieces_discount": 87,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 94,
+          "max_two_pieces_discount": 92,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.4折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.4折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-9.2折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.2折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -1035,7 +1072,7 @@
             "id": 3,
             "desc": "30日销量破0攻略",
             "priority": 4,
-            "show": true
+            "show": false
           },
           {
             "id": 4,
@@ -1125,11 +1162,11 @@
     {
       "quantity": 1998,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        3900,
-        3900
+        3861,
+        3861
       ],
       "sku_price": [
         4300,
@@ -1139,7 +1176,12 @@
         3900,
         3900
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 3861,
+        "max_price": 3861,
+        "activity_id": "1652293213",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 375572476047,
@@ -1159,13 +1201,15 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-15/db303a6f4e2870fc559bb9104a807e5d.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-29/6f01da84dc2ff9087e7f3609a991fa40.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-14/0b8dfc8f-e390-430b-b45b-320985f45a0c.jpeg.a.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-15/63f4b51518e9ba85f6ad0ba918e1b5d6.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-14/834e5f04-03fc-40bb-9aa1-d34817b2f153.jpeg.a.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-29/7868d4d1faa4f8c7925dd5e80f04e884.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -1188,7 +1232,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1655222842,
       "pre_sale_time": 0,
@@ -1210,8 +1254,8 @@
           "isOnsale": true,
           "normalPrice": 4300,
           "groupPrice": 3900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 3861,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-14/440f5e92-bccc-4ec0-94f6-cc4ba8400484.jpeg.a.jpeg",
           "specIdList": [
             12071313421,
             12071296620
@@ -1230,8 +1274,8 @@
           "isOnsale": true,
           "normalPrice": 4300,
           "groupPrice": 3900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 3861,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-14/43a7d3d8-ce74-4843-b1d8-aa873c80ac18.jpeg.a.jpeg",
           "specIdList": [
             12071323231,
             12071296620
@@ -1260,6 +1304,7 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":83372}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
@@ -1399,13 +1444,13 @@
       "reject_reason": null
     },
     {
-      "quantity": 7992,
+      "quantity": 7500,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        10200,
-        11800
+        10098,
+        11682
       ],
       "sku_price": [
         10800,
@@ -1415,11 +1460,16 @@
         10200,
         11800
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 10098,
+        "max_price": 11682,
+        "activity_id": "1652337055",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 374654759828,
-      "goods_name": "女用智能情趣外出跳蛋APP远程遥控调情入体小怪兽自慰器宿舍隐秘",
+      "goods_name": "智能跳蛋APP远程遥控调情亲肤防水入体情趣外出宿舍隐秘自慰器",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18780,
@@ -1435,19 +1485,21 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-13/2c81746e40bcfccaeec59e1f1ba23d83.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/ae5eab649475b38083eef30d2c646d49.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-13/94f1535a-a702-4025-bf94-8aa892f545db.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-13/a6261a127195e5bd53ae55c95ba6f346.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-13/1536fd07-de85-462a-9164-2474d5465a18.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/dc0b4c1e5dfea007c5b53bf5dafdf831.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "女用智能情趣外出跳蛋APP远程遥控调情入体小怪兽自慰器宿舍隐秘",
+      "goods_desc": "智能跳蛋APP远程遥控调情亲肤防水入体情趣外出宿舍隐秘自慰器",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 12500,
@@ -1464,7 +1516,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1655051964,
       "pre_sale_time": 0,
@@ -1486,8 +1538,8 @@
           "isOnsale": true,
           "normalPrice": 10800,
           "groupPrice": 10200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 10098,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/c76f3950-53e8-4ca2-8116-f1ccf0b0ad78.jpeg",
           "specIdList": [
             12019295899,
             12019271778
@@ -1500,14 +1552,14 @@
         {
           "spec": "粉粉粉色的 大眼怪心动版（推荐 可遥控）",
           "skuId": 1196040874662,
-          "skuQuantity": 999,
+          "skuQuantity": 876,
           "skuSoldQuantity": null,
           "outSkuSn": "LB-12-001A-62-65",
           "isOnsale": true,
           "normalPrice": 12400,
           "groupPrice": 11800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11682,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/c76f3950-53e8-4ca2-8116-f1ccf0b0ad78.jpeg",
           "specIdList": [
             12019295899,
             12019276989
@@ -1526,8 +1578,8 @@
           "isOnsale": true,
           "normalPrice": 10800,
           "groupPrice": 10200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 10098,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/7e57a764-4629-4d53-b849-1b634e924394.jpeg",
           "specIdList": [
             12019295899,
             12019280438
@@ -1540,14 +1592,14 @@
         {
           "spec": "粉粉粉色的 喵喵心动版（推荐 可遥控）",
           "skuId": 1196040874664,
-          "skuQuantity": 999,
+          "skuQuantity": 876,
           "skuSoldQuantity": null,
           "outSkuSn": "LB-12-001A-62-65",
           "isOnsale": true,
           "normalPrice": 12400,
           "groupPrice": 11800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11682,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/7e57a764-4629-4d53-b849-1b634e924394.jpeg",
           "specIdList": [
             12019295899,
             12019284772
@@ -1566,8 +1618,8 @@
           "isOnsale": true,
           "normalPrice": 10800,
           "groupPrice": 10200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 10098,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/364762d6-3208-41de-bc32-65871e1bac14.jpeg",
           "specIdList": [
             12019305585,
             12019271778
@@ -1580,14 +1632,14 @@
         {
           "spec": "绿绿绿色的 大眼怪心动版（推荐 可遥控）",
           "skuId": 1196040874666,
-          "skuQuantity": 999,
+          "skuQuantity": 876,
           "skuSoldQuantity": null,
           "outSkuSn": "LB-12-001A-62-65",
           "isOnsale": true,
           "normalPrice": 12400,
           "groupPrice": 11800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11682,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/364762d6-3208-41de-bc32-65871e1bac14.jpeg",
           "specIdList": [
             12019305585,
             12019276989
@@ -1606,8 +1658,8 @@
           "isOnsale": true,
           "normalPrice": 10800,
           "groupPrice": 10200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 10098,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/954a256d-0437-4e4f-a918-836819b3010f.jpeg",
           "specIdList": [
             12019305585,
             12019280438
@@ -1620,14 +1672,14 @@
         {
           "spec": "绿绿绿色的 喵喵心动版（推荐 可遥控）",
           "skuId": 1196040874668,
-          "skuQuantity": 999,
+          "skuQuantity": 876,
           "skuSoldQuantity": null,
           "outSkuSn": "LB-12-001A-62-65",
           "isOnsale": true,
           "normalPrice": 12400,
           "groupPrice": 11800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11682,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-13/6818a341-bd8a-4eb9-9da5-22f9e9fd3303.jpeg",
           "specIdList": [
             12019305585,
             12019284772
@@ -1656,6 +1708,7 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":4284}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
@@ -1672,16 +1725,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 90,
-      "max_two_pieces_discount": 99,
+      "two_pieces_discount": 86,
+      "max_two_pieces_discount": 91,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 95,
+      "recommend_two_pieces_discount": 86,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 99,
+          "max_two_pieces_discount": 91,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.9折"
+          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -1789,7 +1842,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -1797,11 +1850,11 @@
     {
       "quantity": 3419,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        13200,
-        16200
+        9900,
+        12150
       ],
       "sku_price": [
         13600,
@@ -1811,7 +1864,12 @@
         13200,
         16200
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 9900,
+        "max_price": 12150,
+        "activity_id": "1652150836",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 374219807520,
@@ -1837,7 +1895,9 @@
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-12/ceae3d990713843f94d9e2ff81a7e45b.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -1860,7 +1920,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654966378,
       "pre_sale_time": 0,
@@ -1882,8 +1942,8 @@
           "isOnsale": true,
           "normalPrice": 13600,
           "groupPrice": 13200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9900,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-12/4366edf8-578e-49c6-a3a2-ed9dbec2b912.jpeg",
           "specIdList": [
             11989867397,
             11990208718
@@ -1902,8 +1962,8 @@
           "isOnsale": true,
           "normalPrice": 14600,
           "groupPrice": 14200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 10650,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-12/cc4562e8-4274-4fec-9571-0283d7c08c4e.jpeg",
           "specIdList": [
             11989973870,
             11990208718
@@ -1922,8 +1982,8 @@
           "isOnsale": true,
           "normalPrice": 15600,
           "groupPrice": 15200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11400,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-12/0a159abc-ebd2-46e3-b49d-b7b900014902.jpeg",
           "specIdList": [
             11989860590,
             11990208718
@@ -1942,8 +2002,8 @@
           "isOnsale": true,
           "normalPrice": 15600,
           "groupPrice": 15200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 11400,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-12/bfb977ed-ca5c-4d49-9013-860388a4fbcb.jpeg",
           "specIdList": [
             11989853551,
             11990208718
@@ -1962,8 +2022,8 @@
           "isOnsale": true,
           "normalPrice": 16600,
           "groupPrice": 16200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 12150,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-12/f2d19f30-db0e-4768-9735-ba9a94caa268.jpeg",
           "specIdList": [
             11989864001,
             11990208718
@@ -1992,6 +2052,7 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":360590}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
@@ -2008,403 +2069,7 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 88,
-      "max_two_pieces_discount": 93,
-      "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 88,
-      "two_pieces_rule_vo": {
-        "two_pieces_percent_inform_vo": {
-          "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 93,
-          "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.3折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.3折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
-        },
-        "close_two_pieces_inform_vo": {
-          "can_close": false,
-          "cant_close_inform_message": "当前分类下的商品不能取消折扣"
-        }
-      },
-      "neg_keyword_num": null,
-      "resource_guide_vo": {
-        "resource_guide_list": [
-          {
-            "id": 1,
-            "desc": "商品评价",
-            "priority": 1,
-            "show": false
-          },
-          {
-            "id": 2,
-            "desc": "设置两件折扣",
-            "priority": 3,
-            "show": false
-          },
-          {
-            "id": 3,
-            "desc": "30日销量破0攻略",
-            "priority": 4,
-            "show": true
-          },
-          {
-            "id": 4,
-            "desc": "价格竞争力",
-            "priority": 7,
-            "show": false
-          },
-          {
-            "id": 5,
-            "desc": "商品数据",
-            "priority": 2,
-            "show": false
-          },
-          {
-            "id": 6,
-            "desc": "多多进宝",
-            "priority": 6,
-            "show": false
-          },
-          {
-            "id": 7,
-            "desc": "广告推广",
-            "priority": 5,
-            "show": false
-          },
-          {
-            "id": 8,
-            "desc": "商品立减券",
-            "priority": 4,
-            "show": false
-          }
-        ]
-      },
-      "resource_guide_vo_v2": {
-        "resource_guide_list": [
-          {
-            "id": 2,
-            "desc": "设置两件折扣",
-            "priority": 3,
-            "url": null,
-            "is_list_show": false,
-            "is_show": false,
-            "entrance_text": "优化满2件折扣",
-            "corner_text": "获取流量",
-            "corner_style": 1
-          },
-          {
-            "id": 1,
-            "desc": "商品评价",
-            "priority": 1,
-            "url": "pddmerchant://pddmerchant.com/goodsCommentDetail?goods_id=374219807520",
-            "is_list_show": false,
-            "is_show": true,
-            "entrance_text": "商品评价",
-            "corner_text": null,
-            "corner_style": 0
-          },
-          {
-            "id": 4,
-            "desc": "价格竞争力",
-            "priority": 7,
-            "url": null,
-            "is_list_show": false,
-            "is_show": false,
-            "entrance_text": "同款高价",
-            "corner_text": null,
-            "corner_style": 0
-          },
-          {
-            "id": 5,
-            "desc": "商品数据",
-            "priority": 2,
-            "url": "pddmerchant://pddmerchant.com/goods_analyse_detail?goods_id=374219807520&show_real_time=true&selected_time_tab=6",
-            "is_list_show": false,
-            "is_show": true,
-            "entrance_text": "商品数据",
-            "corner_text": null,
-            "corner_style": 0
-          }
-        ]
-      },
-      "is_goods_name_need_optimize": true,
-      "ware_status": null,
-      "reject_status": null,
-      "reject_reason": null
-    },
-    {
-      "quantity": 5994,
-      "score": 0,
-      "resource": "",
-      "priority": null,
-      "sku_group_price": [
-        13200,
-        14600
-      ],
-      "sku_price": [
-        13800,
-        15200
-      ],
-      "origin_sku_group_price": [
-        13200,
-        14600
-      ],
-      "promotion_goods": null,
-      "mall_id": 861673389,
-      "mall_name": null,
-      "id": 374058903929,
-      "goods_name": "萌猫隐形外出隐秘穿戴女用遥控跳蛋加温阳具情趣震动宿舍成人用品",
-      "goods_sn": null,
-      "goods_type": 1,
-      "cat_id": 18778,
-      "cat_name": "仿真阳具",
-      "cat_name_1": "成人用品",
-      "cat_name_2": "女用器具",
-      "cat_name_3": "仿真阳具",
-      "cat_name_4": null,
-      "cat_id_1": 16237,
-      "cat_id_2": 16251,
-      "cat_id_3": 18778,
-      "cat_id_4": 0,
-      "event_type": 0,
-      "display_priority": null,
-      "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-12/f38e897aa6c3356aa237a54cc372e687.jpeg",
-      "image_url": null,
-      "hd_url": "https://t16img.yangkeduo.com/garner-api/d3c7aac3532bb0e2069c430839e87909.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-12/d5c994b7eed4e57fb1d7c27d402b8af7.jpeg",
-      "is_onsale": true,
-      "sold_quantity": 0,
-      "resource_hover": null,
-      "off_sale_check": null,
-      "onsale_check": null,
-      "edit_check": null,
-      "gray_goods_high_quality_refund": false,
-      "share_desc": null,
-      "goods_desc": "萌猫隐形外出隐秘穿戴女用遥控跳蛋加温阳具情趣震动宿舍成人用品",
-      "activity_title": null,
-      "is_card_secret": false,
-      "market_price": 16600,
-      "out_goods_sn": "QR-5006BA-73-78",
-      "sold_quantity_for_thirty_days": 0,
-      "fav_cnt": 1,
-      "multi_treasure": false,
-      "multi_treasure_status": 0,
-      "if_new_goods": false,
-      "tag_category_list": [],
-      "goods_info_score_dto": null,
-      "goods_inspect_score": {
-        "score": "5.0",
-        "problemsDesc": [],
-        "problemsCode": [],
-        "status": 1,
-        "taskId": 340808445
-      },
-      "created_at": 1654968183,
-      "pre_sale_time": 0,
-      "shipment_limit_second": 86400,
-      "is_group_pre_sale": false,
-      "guide_target": 10001,
-      "over_sell": false,
-      "market_labels": null,
-      "labels": [],
-      "sku_type": 0,
-      "sku_count": 8,
-      "sku_list": [
-        {
-          "spec": "浅浅的粉 标准版（一个震点 遥控 无加温）",
-          "skuId": 1195058494158,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-65-68",
-          "isOnsale": true,
-          "normalPrice": 13800,
-          "groupPrice": 13200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            110373073,
-            11991116983
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "浅浅的粉 高配版（三个震点 遥控 加温）",
-          "skuId": 1195058494159,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-73-78",
-          "isOnsale": true,
-          "normalPrice": 15200,
-          "groupPrice": 14600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            110373073,
-            11991142216
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "淡淡的蓝 标准版（一个震点 遥控 无加温）",
-          "skuId": 1195058494160,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-65-68",
-          "isOnsale": true,
-          "normalPrice": 13800,
-          "groupPrice": 13200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            29298166,
-            11991116983
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "淡淡的蓝 高配版（三个震点 遥控 加温）",
-          "skuId": 1195058494161,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-73-78",
-          "isOnsale": true,
-          "normalPrice": 15200,
-          "groupPrice": 14600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            29298166,
-            11991142216
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "深深的紫 标准版（一个震点 遥控 无加温）",
-          "skuId": 1195058494162,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-65-68",
-          "isOnsale": true,
-          "normalPrice": 13800,
-          "groupPrice": 13200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            9070789795,
-            11991116983
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "深深的紫 高配版（三个震点 遥控 加温）",
-          "skuId": 1195058494163,
-          "skuQuantity": 999,
-          "skuSoldQuantity": null,
-          "outSkuSn": "QR-5006BA-73-78",
-          "isOnsale": true,
-          "normalPrice": 15200,
-          "groupPrice": 14600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            9070789795,
-            11991142216
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "热情的红 标准版（一个震点 遥控 无加温）",
-          "skuId": 1195065711697,
-          "skuQuantity": 0,
-          "skuSoldQuantity": null,
-          "outSkuSn": "",
-          "isOnsale": true,
-          "normalPrice": 13800,
-          "groupPrice": 13200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            769060952,
-            11991116983
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        },
-        {
-          "spec": "热情的红 高配版（三个震点 遥控 加温）",
-          "skuId": 1195065711698,
-          "skuQuantity": 0,
-          "skuSoldQuantity": null,
-          "outSkuSn": "",
-          "isOnsale": true,
-          "normalPrice": 15200,
-          "groupPrice": 14600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
-          "specIdList": [
-            769060952,
-            11991142216
-          ],
-          "weight": null,
-          "recordNoList": null,
-          "newGoodsAdvicePrice": null,
-          "reserveQuantity": null
-        }
-      ],
-      "property_list": null,
-      "schedule_sale": {
-        "sale_type": 0,
-        "sale_time_fixed": null,
-        "sale_time": null,
-        "price_show": null,
-        "price_desc": null
-      },
-      "costTemplateId": 303351846671360,
-      "goods_price_score": null,
-      "is_pre_sale": false,
-      "pre_sale_sku_list": [],
-      "sku_id_to_sold_out_config": null,
-      "sold_out_to_presale_type": null,
-      "vegetable_sold_quantity": 0,
-      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":114377}",
-      "option_list": [
-        0,
-        9,
-        13,
-        54,
-        117
-      ],
-      "high_price_sku_count": null,
-      "advice_price_label": null,
-      "price_type": null,
-      "price_cut_rights_goods_count": 0,
-      "suggest_price": null,
-      "suggest_count": null,
-      "brand_name": "Secwell",
-      "goods_copy_shipping_type": null,
-      "price_delta": null,
-      "weighted_status": null,
-      "festival_goods": false,
-      "two_pieces_discount": 85,
+      "two_pieces_discount": 87,
       "max_two_pieces_discount": 90,
       "min_two_pieces_discount": 50,
       "recommend_two_pieces_discount": 85,
@@ -2480,8 +2145,412 @@
             "desc": "设置两件折扣",
             "priority": 3,
             "url": null,
+            "is_list_show": true,
+            "is_show": true,
+            "entrance_text": "优化满2件折扣",
+            "corner_text": "获取流量",
+            "corner_style": 1
+          },
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "url": "pddmerchant://pddmerchant.com/goodsCommentDetail?goods_id=374219807520",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品评价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "url": null,
             "is_list_show": false,
             "is_show": false,
+            "entrance_text": "同款高价",
+            "corner_text": null,
+            "corner_style": 0
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "url": "pddmerchant://pddmerchant.com/goods_analyse_detail?goods_id=374219807520&show_real_time=true&selected_time_tab=6",
+            "is_list_show": false,
+            "is_show": true,
+            "entrance_text": "商品数据",
+            "corner_text": null,
+            "corner_style": 0
+          }
+        ]
+      },
+      "is_goods_name_need_optimize": false,
+      "ware_status": null,
+      "reject_status": null,
+      "reject_reason": null
+    },
+    {
+      "quantity": 5994,
+      "score": 0,
+      "resource": "大促活动",
+      "priority": null,
+      "sku_group_price": [
+        9900,
+        10950
+      ],
+      "sku_price": [
+        13800,
+        15200
+      ],
+      "origin_sku_group_price": [
+        13200,
+        14600
+      ],
+      "promotion_goods": {
+        "min_price": 9900,
+        "max_price": 10950,
+        "activity_id": "1652173720",
+        "activity_type": 101
+      },
+      "mall_id": 861673389,
+      "mall_name": null,
+      "id": 374058903929,
+      "goods_name": "隐形女用遥控跳蛋外出隐秘穿戴加温阳具情趣震动宿舍成人用品",
+      "goods_sn": null,
+      "goods_type": 1,
+      "cat_id": 18778,
+      "cat_name": "仿真阳具",
+      "cat_name_1": "成人用品",
+      "cat_name_2": "女用器具",
+      "cat_name_3": "仿真阳具",
+      "cat_name_4": null,
+      "cat_id_1": 16237,
+      "cat_id_2": 16251,
+      "cat_id_3": 18778,
+      "cat_id_4": 0,
+      "event_type": 0,
+      "display_priority": null,
+      "reserve_quantity": 0,
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/a831340ef8baaf1b20eb88b95ca70149.jpeg",
+      "image_url": null,
+      "hd_url": "https://himg.pddugc.com/open-gw/2022-06-11/666b0a58d3cc1e65fc7f1ba677e19121.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/f52467ab84bbbefdd18e8f9d3a0a35b8.jpeg",
+      "is_onsale": true,
+      "sold_quantity": 0,
+      "resource_hover": {
+        "大促活动": 0
+      },
+      "off_sale_check": null,
+      "onsale_check": null,
+      "edit_check": null,
+      "gray_goods_high_quality_refund": false,
+      "share_desc": null,
+      "goods_desc": "隐形女用遥控跳蛋外出隐秘穿戴加温阳具情趣震动宿舍成人用品",
+      "activity_title": null,
+      "is_card_secret": false,
+      "market_price": 16600,
+      "out_goods_sn": "QR-5006BA-73-78",
+      "sold_quantity_for_thirty_days": 0,
+      "fav_cnt": 1,
+      "multi_treasure": false,
+      "multi_treasure_status": 0,
+      "if_new_goods": false,
+      "tag_category_list": [],
+      "goods_info_score_dto": null,
+      "goods_inspect_score": {
+        "score": "5.0",
+        "problemsDesc": [],
+        "problemsCode": [],
+        "status": 1,
+        "taskId": 354256177
+      },
+      "created_at": 1654968183,
+      "pre_sale_time": 0,
+      "shipment_limit_second": 86400,
+      "is_group_pre_sale": false,
+      "guide_target": 10001,
+      "over_sell": false,
+      "market_labels": null,
+      "labels": [],
+      "sku_type": 0,
+      "sku_count": 8,
+      "sku_list": [
+        {
+          "spec": "浅浅的粉 标准版（一个震点 遥控 无加温）",
+          "skuId": 1195058494158,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-65-68",
+          "isOnsale": true,
+          "normalPrice": 13800,
+          "groupPrice": 13200,
+          "activityGroupPrice": 9900,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/a0525896bb1743e460fd56030a74e93a.jpeg",
+          "specIdList": [
+            110373073,
+            11991116983
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "浅浅的粉 高配版（三个震点 遥控 加温）",
+          "skuId": 1195058494159,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-73-78",
+          "isOnsale": true,
+          "normalPrice": 15200,
+          "groupPrice": 14600,
+          "activityGroupPrice": 10950,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/a0525896bb1743e460fd56030a74e93a.jpeg",
+          "specIdList": [
+            110373073,
+            11991142216
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "淡淡的蓝 标准版（一个震点 遥控 无加温）",
+          "skuId": 1195058494160,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-65-68",
+          "isOnsale": true,
+          "normalPrice": 13800,
+          "groupPrice": 13200,
+          "activityGroupPrice": 9900,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/486803b7e1404621b2c0352ff77398ac.jpeg",
+          "specIdList": [
+            29298166,
+            11991116983
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "淡淡的蓝 高配版（三个震点 遥控 加温）",
+          "skuId": 1195058494161,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-73-78",
+          "isOnsale": true,
+          "normalPrice": 15200,
+          "groupPrice": 14600,
+          "activityGroupPrice": 10950,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/486803b7e1404621b2c0352ff77398ac.jpeg",
+          "specIdList": [
+            29298166,
+            11991142216
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "深深的紫 标准版（一个震点 遥控 无加温）",
+          "skuId": 1195058494162,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-65-68",
+          "isOnsale": true,
+          "normalPrice": 13800,
+          "groupPrice": 13200,
+          "activityGroupPrice": 9900,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/c4ed095d76eaa230b23c8ffa97eda203.jpeg",
+          "specIdList": [
+            9070789795,
+            11991116983
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "深深的紫 高配版（三个震点 遥控 加温）",
+          "skuId": 1195058494163,
+          "skuQuantity": 999,
+          "skuSoldQuantity": null,
+          "outSkuSn": "QR-5006BA-73-78",
+          "isOnsale": true,
+          "normalPrice": 15200,
+          "groupPrice": 14600,
+          "activityGroupPrice": 10950,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/c4ed095d76eaa230b23c8ffa97eda203.jpeg",
+          "specIdList": [
+            9070789795,
+            11991142216
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "热情的红 标准版（一个震点 遥控 无加温）",
+          "skuId": 1195065711697,
+          "skuQuantity": 0,
+          "skuSoldQuantity": null,
+          "outSkuSn": "",
+          "isOnsale": true,
+          "normalPrice": 13800,
+          "groupPrice": 13200,
+          "activityGroupPrice": 9900,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/d3c7aac3532bb0e2069c430839e87909.jpeg",
+          "specIdList": [
+            769060952,
+            11991116983
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        },
+        {
+          "spec": "热情的红 高配版（三个震点 遥控 加温）",
+          "skuId": 1195065711698,
+          "skuQuantity": 0,
+          "skuSoldQuantity": null,
+          "outSkuSn": "",
+          "isOnsale": true,
+          "normalPrice": 15200,
+          "groupPrice": 14600,
+          "activityGroupPrice": 10950,
+          "skuThumbUrl": "https://t16img.yangkeduo.com/garner-api/d3c7aac3532bb0e2069c430839e87909.jpeg",
+          "specIdList": [
+            769060952,
+            11991142216
+          ],
+          "weight": null,
+          "recordNoList": null,
+          "newGoodsAdvicePrice": null,
+          "reserveQuantity": null
+        }
+      ],
+      "property_list": null,
+      "schedule_sale": {
+        "sale_type": 0,
+        "sale_time_fixed": null,
+        "sale_time": null,
+        "price_show": null,
+        "price_desc": null
+      },
+      "costTemplateId": 303351846671360,
+      "goods_price_score": null,
+      "is_pre_sale": false,
+      "pre_sale_sku_list": [],
+      "sku_id_to_sold_out_config": null,
+      "sold_out_to_presale_type": null,
+      "vegetable_sold_quantity": 0,
+      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":114377}",
+      "option_list": [
+        0,
+        7,
+        9,
+        13,
+        54,
+        117
+      ],
+      "high_price_sku_count": null,
+      "advice_price_label": null,
+      "price_type": null,
+      "price_cut_rights_goods_count": 0,
+      "suggest_price": null,
+      "suggest_count": null,
+      "brand_name": "Secwell",
+      "goods_copy_shipping_type": null,
+      "price_delta": null,
+      "weighted_status": null,
+      "festival_goods": false,
+      "two_pieces_discount": 84,
+      "max_two_pieces_discount": 86,
+      "min_two_pieces_discount": 50,
+      "recommend_two_pieces_discount": 81,
+      "two_pieces_rule_vo": {
+        "two_pieces_percent_inform_vo": {
+          "min_two_pieces_discount": 50,
+          "max_two_pieces_discount": 86,
+          "recommend_two_pieces_discount": null,
+          "incorrect_inform_message": "应为5-8.6折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.6折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+        },
+        "close_two_pieces_inform_vo": {
+          "can_close": false,
+          "cant_close_inform_message": "当前分类下的商品不能取消折扣"
+        }
+      },
+      "neg_keyword_num": null,
+      "resource_guide_vo": {
+        "resource_guide_list": [
+          {
+            "id": 1,
+            "desc": "商品评价",
+            "priority": 1,
+            "show": false
+          },
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "show": false
+          },
+          {
+            "id": 3,
+            "desc": "30日销量破0攻略",
+            "priority": 4,
+            "show": true
+          },
+          {
+            "id": 4,
+            "desc": "价格竞争力",
+            "priority": 7,
+            "show": false
+          },
+          {
+            "id": 5,
+            "desc": "商品数据",
+            "priority": 2,
+            "show": false
+          },
+          {
+            "id": 6,
+            "desc": "多多进宝",
+            "priority": 6,
+            "show": false
+          },
+          {
+            "id": 7,
+            "desc": "广告推广",
+            "priority": 5,
+            "show": false
+          },
+          {
+            "id": 8,
+            "desc": "商品立减券",
+            "priority": 4,
+            "show": false
+          }
+        ]
+      },
+      "resource_guide_vo_v2": {
+        "resource_guide_list": [
+          {
+            "id": 2,
+            "desc": "设置两件折扣",
+            "priority": 3,
+            "url": null,
+            "is_list_show": true,
+            "is_show": true,
             "entrance_text": "优化满2件折扣",
             "corner_text": "获取流量",
             "corner_style": 1
@@ -2529,11 +2598,11 @@
     {
       "quantity": 2398,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        8200,
-        9600
+        8118,
+        9504
       ],
       "sku_price": [
         8800,
@@ -2543,11 +2612,16 @@
         8200,
         9600
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 8118,
+        "max_price": 9504,
+        "activity_id": "1652351084",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 373775163339,
-      "goods_name": "交悦涨潮水一代二代女用润滑液快感液前戏调请夫妻房事情趣性用品",
+      "goods_name": "润滑涨潮水一代二代女用润滑液快感液前戏调请夫妻房事情趣性用品",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18785,
@@ -2569,13 +2643,15 @@
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-11/9bdfa1a8e135e3feb20562f1bc5e900b.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "交悦涨潮水一代二代女用润滑液快感液前戏调请夫妻房事情趣性用品",
+      "goods_desc": "润滑涨潮水一代二代女用润滑液快感液前戏调请夫妻房事情趣性用品",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 10300,
@@ -2592,7 +2668,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654882401,
       "pre_sale_time": 0,
@@ -2614,8 +2690,8 @@
           "isOnsale": true,
           "normalPrice": 9000,
           "groupPrice": 8400,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 8316,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/78b813ff-870f-4f9b-ae2b-5cb5e6d10023.jpeg",
           "specIdList": [
             11961105786
           ],
@@ -2633,8 +2709,8 @@
           "isOnsale": true,
           "normalPrice": 10200,
           "groupPrice": 9600,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9504,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/bd65358d-9a29-4885-8191-5b2783ce81fc.jpeg",
           "specIdList": [
             11961108530
           ],
@@ -2652,8 +2728,8 @@
           "isOnsale": true,
           "normalPrice": 8800,
           "groupPrice": 8200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 8118,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/9385777a-bfb0-4244-96fb-3f5a4176bc74.jpeg",
           "specIdList": [
             6516208527
           ],
@@ -2671,8 +2747,8 @@
           "isOnsale": true,
           "normalPrice": 8800,
           "groupPrice": 8200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 8118,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/fa4ccb75-7795-4346-aaa5-ae31d14cf71c.jpeg",
           "specIdList": [
             6903105122
           ],
@@ -2699,14 +2775,15 @@
       "vegetable_sold_quantity": 0,
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":234125}",
       "option_list": [
+        7,
         9,
         13,
         54,
         117
       ],
-      "high_price_sku_count": 0,
+      "high_price_sku_count": null,
       "advice_price_label": null,
-      "price_type": 0,
+      "price_type": null,
       "price_cut_rights_goods_count": 0,
       "suggest_price": null,
       "suggest_count": null,
@@ -2840,25 +2917,30 @@
     {
       "quantity": 2116,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        19900,
-        21900
+        18444,
+        20184
       ],
       "sku_price": [
-        21900,
-        24900
+        23320,
+        25520
       ],
       "origin_sku_group_price": [
-        19900,
-        21900
+        21200,
+        23200
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 18444,
+        "max_price": 20184,
+        "activity_id": "1652273112",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 373762924753,
-      "goods_name": "智能加热吮吸飞机杯男用感应全自动自发热发音脱敏宿舍神器自慰器",
+      "goods_name": "智能吮吸飞机杯男用感应全自动加热按摩调频发音脱敏神器自慰器",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18810,
@@ -2874,19 +2956,21 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-13/d6b1975ebec1f6ed75caf369e97946cd.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-04/164ab916d3dbed033bd80951ce870555.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-11/840d75ea-f4dd-4bd1-a969-ff30baba437c.jpeg.a.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-13/267f018f14bb06afd154aaf090d42cee.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-11/fd1e2c56-7234-4402-83da-a965c745572e.jpeg.a.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-04/d862ffff53781ace80b506e0e9cd4771.jpeg",
       "is_onsale": true,
       "sold_quantity": 1,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "智能加热吮吸飞机杯男用感应全自动自发热发音脱敏宿舍神器自慰器",
+      "goods_desc": "智能吮吸飞机杯男用感应全自动加热按摩调频发音脱敏神器自慰器",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 26700,
@@ -2903,7 +2987,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654879788,
       "pre_sale_time": 0,
@@ -2923,10 +3007,10 @@
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
-          "normalPrice": 21900,
-          "groupPrice": 19900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "normalPrice": 23320,
+          "groupPrice": 21200,
+          "activityGroupPrice": 18444,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/821323a0-08d1-497f-af16-39c25f61e141.jpeg.a.jpeg",
           "specIdList": [
             301322,
             11960309278
@@ -2943,10 +3027,10 @@
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
-          "normalPrice": 23900,
-          "groupPrice": 21900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "normalPrice": 25520,
+          "groupPrice": 23200,
+          "activityGroupPrice": 20184,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/92b8e4ff-de54-44d5-9f40-49cdf8d050ad.jpeg.a.jpeg",
           "specIdList": [
             254145372,
             11960309278
@@ -2963,10 +3047,10 @@
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
-          "normalPrice": 24900,
-          "groupPrice": 21900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "normalPrice": 25520,
+          "groupPrice": 23200,
+          "activityGroupPrice": 20184,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/5175d726-e333-4b5e-ab86-7d1b9962dda0.jpeg.a.jpeg",
           "specIdList": [
             24624552,
             11960309278
@@ -2992,15 +3076,16 @@
       "sku_id_to_sold_out_config": null,
       "sold_out_to_presale_type": null,
       "vegetable_sold_quantity": 0,
-      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":360590}",
+      "attributes_1": "{\"folt\":0,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":360590}",
       "option_list": [
         0,
+        7,
         9,
         13,
-        19,
         21,
         54,
-        117
+        117,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -3013,7 +3098,7 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 88,
+      "two_pieces_discount": 89,
       "max_two_pieces_discount": 93,
       "min_two_pieces_discount": 50,
       "recommend_two_pieces_discount": 88,
@@ -3089,8 +3174,8 @@
             "desc": "设置两件折扣",
             "priority": 3,
             "url": null,
-            "is_list_show": false,
-            "is_show": false,
+            "is_list_show": true,
+            "is_show": true,
             "entrance_text": "优化满2件折扣",
             "corner_text": "获取流量",
             "corner_style": 1
@@ -3138,11 +3223,11 @@
     {
       "quantity": 3996,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        1800,
-        1800
+        1782,
+        1782
       ],
       "sku_price": [
         2000,
@@ -3152,7 +3237,12 @@
         1800,
         1800
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 1782,
+        "max_price": 1782,
+        "activity_id": "1652296339",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 373754872645,
@@ -3172,13 +3262,15 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-11/0f6c4aecbe43f4b090ced57e70cf1ce0.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/094c252109f33b22bbae76914e9a45d1.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-11/e6c934eb-e8ca-4f54-a231-28bfe1acabab.jpeg.a.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-11/bf560f6e6359789de064ade745149eb5.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-11/d3a7a0e0-5d29-48ac-ba35-4f059873e6c2.jpeg.a.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/f7f91569f69a8a56f1ab59789607c207.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -3201,7 +3293,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654878309,
       "pre_sale_time": 0,
@@ -3223,8 +3315,8 @@
           "isOnsale": true,
           "normalPrice": 2000,
           "groupPrice": 1800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 1782,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/a476033e-cb6e-45cd-a3ee-631c80c0b7d3.jpeg.a.jpeg",
           "specIdList": [
             4184312552
           ],
@@ -3242,8 +3334,8 @@
           "isOnsale": true,
           "normalPrice": 2000,
           "groupPrice": 1800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 1782,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/edc88116-69f2-4a50-b0b2-1d33b3f691ea.jpeg.a.jpeg",
           "specIdList": [
             4184304882
           ],
@@ -3261,8 +3353,8 @@
           "isOnsale": true,
           "normalPrice": 2000,
           "groupPrice": 1800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 1782,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/eb5c4a95-bc37-486b-b6a1-ae1017c59437.jpeg.a.jpeg",
           "specIdList": [
             4184334273
           ],
@@ -3280,8 +3372,8 @@
           "isOnsale": true,
           "normalPrice": 2000,
           "groupPrice": 1800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 1782,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-11/bbb16aea-ae2f-413f-916c-4681bc070547.jpeg.a.jpeg",
           "specIdList": [
             4184314923
           ],
@@ -3308,10 +3400,12 @@
       "vegetable_sold_quantity": 0,
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":905483}",
       "option_list": [
+        7,
         9,
         13,
         54,
-        117
+        117,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -3447,13 +3541,13 @@
       "reject_reason": null
     },
     {
-      "quantity": 993,
+      "quantity": 991,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        8200,
-        8200
+        6560,
+        6560
       ],
       "sku_price": [
         10900,
@@ -3463,11 +3557,16 @@
         8200,
         8200
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 6560,
+        "max_price": 6560,
+        "activity_id": "1652224297",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 372843694615,
-      "goods_name": "新款可爱风香蕉震动棒G点水果棒女用阳具自慰器少女情趣",
+      "goods_name": "新款可爱风香蕉震动棒G点水果棒女用阳具自慰器少女软妹宿舍情趣",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18780,
@@ -3488,14 +3587,16 @@
       "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-09/755a71f3-2b7e-4f59-bc3f-d3e1b4e4ed33.jpeg",
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-09/c3058dac0e892c31ae26d4bacd3bf9ed.jpeg",
       "is_onsale": true,
-      "sold_quantity": 4,
-      "resource_hover": null,
+      "sold_quantity": 6,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "新款可爱风香蕉震动棒G点水果棒女用阳具自慰器少女情趣",
+      "goods_desc": "新款可爱风香蕉震动棒G点水果棒女用阳具自慰器少女软妹宿舍情趣",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 11800,
@@ -3512,7 +3613,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654705015,
       "pre_sale_time": 0,
@@ -3528,14 +3629,14 @@
         {
           "spec": "小香蕉震动棒",
           "skuId": 1191651323844,
-          "skuQuantity": 993,
+          "skuQuantity": 991,
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
           "normalPrice": 10900,
           "groupPrice": 8200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 6560,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-09/47059f95-c193-4b3a-a3ca-1f419badbaaf.jpeg",
           "specIdList": [
             3326530003
           ],
@@ -3563,11 +3664,15 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":681336}",
       "option_list": [
         0,
+        7,
         9,
         13,
+        19,
         21,
         54,
-        117
+        117,
+        122,
+        123
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -3581,15 +3686,15 @@
       "weighted_status": null,
       "festival_goods": false,
       "two_pieces_discount": 86,
-      "max_two_pieces_discount": 91,
+      "max_two_pieces_discount": 89,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 86,
+      "recommend_two_pieces_discount": 84,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 91,
+          "max_two_pieces_discount": 89,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.1折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.1折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-8.9折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.9折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -3656,8 +3761,8 @@
             "desc": "设置两件折扣",
             "priority": 3,
             "url": null,
-            "is_list_show": false,
-            "is_show": false,
+            "is_list_show": true,
+            "is_show": true,
             "entrance_text": "优化满2件折扣",
             "corner_text": "获取流量",
             "corner_style": 1
@@ -3703,13 +3808,13 @@
       "reject_reason": null
     },
     {
-      "quantity": 3194,
+      "quantity": 3193,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        8800,
-        11200
+        7656,
+        9744
       ],
       "sku_price": [
         9200,
@@ -3719,7 +3824,12 @@
         8800,
         11200
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 7656,
+        "max_price": 9744,
+        "activity_id": "1652221338",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 372404322153,
@@ -3744,8 +3854,10 @@
       "hd_url": "https://himg.pddugc.com/mms-material-img/2022-06-08/c41eb365-d7af-4f3f-a865-5d1b5c622f4a.jpeg",
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-28/3dbd8e0530d05b8d738b46af3c465a17.jpeg",
       "is_onsale": true,
-      "sold_quantity": 3,
-      "resource_hover": null,
+      "sold_quantity": 4,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -3756,7 +3868,7 @@
       "is_card_secret": false,
       "market_price": 13200,
       "out_goods_sn": "SM-7003B-50-55",
-      "sold_quantity_for_thirty_days": 3,
+      "sold_quantity_for_thirty_days": 4,
       "fav_cnt": 0,
       "multi_treasure": false,
       "multi_treasure_status": 0,
@@ -3768,7 +3880,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654618715,
       "pre_sale_time": 0,
@@ -3784,14 +3896,14 @@
         {
           "spec": "标准套餐 多频发言充电款(红 Red)",
           "skuId": 1207418893125,
-          "skuQuantity": 533,
+          "skuQuantity": 532,
           "skuSoldQuantity": null,
           "outSkuSn": "SM-7002B-50-55",
           "isOnsale": true,
           "normalPrice": 9200,
           "groupPrice": 8800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 7656,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/3d0be5c2-3a19-4619-97e1-a2d3268f0b4d.jpeg",
           "specIdList": [
             542126,
             12264927753
@@ -3810,8 +3922,8 @@
           "isOnsale": true,
           "normalPrice": 9200,
           "groupPrice": 8800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 7656,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/3625d513-aac8-4855-b616-3d04ee3698f3.jpeg",
           "specIdList": [
             542126,
             12264943286
@@ -3830,8 +3942,8 @@
           "isOnsale": true,
           "normalPrice": 11200,
           "groupPrice": 10800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9396,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/9ce8f29e-4052-456e-9a50-d69ba46e94b5.jpeg",
           "specIdList": [
             254145372,
             12264927753
@@ -3850,8 +3962,8 @@
           "isOnsale": true,
           "normalPrice": 11200,
           "groupPrice": 10800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9396,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/60a4f5bf-5c6f-42ce-8d19-901789e1f993.jpeg",
           "specIdList": [
             254145372,
             12264943286
@@ -3870,8 +3982,8 @@
           "isOnsale": true,
           "normalPrice": 11800,
           "groupPrice": 11200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9744,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/9ce8f29e-4052-456e-9a50-d69ba46e94b5.jpeg",
           "specIdList": [
             62607913,
             12264927753
@@ -3890,8 +4002,8 @@
           "isOnsale": true,
           "normalPrice": 11800,
           "groupPrice": 11200,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9744,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-08/60a4f5bf-5c6f-42ce-8d19-901789e1f993.jpeg",
           "specIdList": [
             62607913,
             12264943286
@@ -3920,11 +4032,15 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":360590}",
       "option_list": [
         0,
+        7,
         9,
         13,
+        19,
         21,
         54,
-        117
+        117,
+        123,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -4062,11 +4178,11 @@
     {
       "quantity": 2997,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        23800,
-        39800
+        13399,
+        29850
       ],
       "sku_price": [
         26800,
@@ -4076,11 +4192,16 @@
         23800,
         39800
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 13399,
+        "max_price": 29850,
+        "activity_id": "1652331011",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 372356290039,
-      "goods_name": "粉色女用跳蛋蓝牙智能恒温双震防水静音遥控新手调情自慰户外",
+      "goods_name": "遥控女用跳蛋蓝牙充电智能恒温粉色双震防水静音新手调情自慰",
       "goods_sn": null,
       "goods_type": 1,
       "cat_id": 18780,
@@ -4102,13 +4223,15 @@
       "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-07/5918705e1470c66c4f1f7ab14146f49f.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
       "gray_goods_high_quality_refund": false,
       "share_desc": null,
-      "goods_desc": "粉色女用跳蛋蓝牙智能恒温双震防水静音遥控新手调情自慰户外",
+      "goods_desc": "遥控女用跳蛋蓝牙充电智能恒温粉色双震防水静音新手调情自慰",
       "activity_title": null,
       "is_card_secret": false,
       "market_price": 66800,
@@ -4125,7 +4248,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1654611418,
       "pre_sale_time": 0,
@@ -4147,8 +4270,8 @@
           "isOnsale": true,
           "normalPrice": 26800,
           "groupPrice": 23800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 13399,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-07/4722008e-696d-4b2a-99a6-548b9c9fa44c.jpeg",
           "specIdList": [
             8613213261
           ],
@@ -4166,8 +4289,8 @@
           "isOnsale": true,
           "normalPrice": 26800,
           "groupPrice": 23800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 13399,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-07/ca7aa1d0-085a-4f37-801d-fba4dc3298ec.jpeg",
           "specIdList": [
             8613194927
           ],
@@ -4185,8 +4308,8 @@
           "isOnsale": true,
           "normalPrice": 53600,
           "groupPrice": 39800,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 29850,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-06-07/db4f4591-018b-4313-991d-ec1fcb2e19eb.jpeg",
           "specIdList": [
             11905168468
           ],
@@ -4214,10 +4337,12 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":181782}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
-        117
+        117,
+        123
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -4231,15 +4356,15 @@
       "weighted_status": null,
       "festival_goods": false,
       "two_pieces_discount": 85,
-      "max_two_pieces_discount": 96,
+      "max_two_pieces_discount": 95,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 91,
+      "recommend_two_pieces_discount": 90,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 96,
+          "max_two_pieces_discount": 95,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9.6折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.6折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-9.5折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9.5折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -4347,7 +4472,7 @@
           }
         ]
       },
-      "is_goods_name_need_optimize": false,
+      "is_goods_name_need_optimize": true,
       "ware_status": null,
       "reject_status": null,
       "reject_reason": null
@@ -4355,11 +4480,11 @@
     {
       "quantity": 2052,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        18900,
-        20900
+        16443,
+        18183
       ],
       "sku_price": [
         21900,
@@ -4369,7 +4494,12 @@
         18900,
         20900
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 16443,
+        "max_price": 18183,
+        "activity_id": "1652224294",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 369204079841,
@@ -4389,13 +4519,15 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-05-30/5d756a2731ac731a4e347ce868a0576e.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/7784db8ef5e8d831de9594e99b4f8e2b.jpeg",
       "image_url": null,
-      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-05-30/9500f3ef-13d0-4620-8398-90ae718e3585.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-05-30/9f66ab83facace1b057dc7c762fd8e2e.jpeg",
+      "hd_url": "https://himg.pddugc.com/mms-material-img/2022-05-30/11d097ff-330a-4c4c-ac39-0a560f30b1fd.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/d47f650773f190ed4ab97385a13f4b2b.jpeg",
       "is_onsale": true,
       "sold_quantity": 2,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -4407,7 +4539,7 @@
       "market_price": 27800,
       "out_goods_sn": "105",
       "sold_quantity_for_thirty_days": 2,
-      "fav_cnt": 2,
+      "fav_cnt": 3,
       "multi_treasure": false,
       "multi_treasure_status": 0,
       "if_new_goods": false,
@@ -4418,7 +4550,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1653919210,
       "pre_sale_time": 0,
@@ -4440,8 +4572,8 @@
           "isOnsale": true,
           "normalPrice": 21900,
           "groupPrice": 18900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 16443,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-05-30/471c62ae-d1fe-445c-b258-566169d7ed4d.jpeg",
           "specIdList": [
             542126
           ],
@@ -4459,8 +4591,8 @@
           "isOnsale": true,
           "normalPrice": 23900,
           "groupPrice": 20900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 18183,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-05-30/7b1632aa-4b52-4726-90e7-f06aadf0ce46.jpeg",
           "specIdList": [
             254145372
           ],
@@ -4478,8 +4610,8 @@
           "isOnsale": true,
           "normalPrice": 23900,
           "groupPrice": 20900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 18183,
+          "skuThumbUrl": "https://himg.pddugc.com/mms-material-img/2022-05-30/dbffecc0-8fd1-4b94-8bc8-8246799711a5.jpeg",
           "specIdList": [
             62607913
           ],
@@ -4507,12 +4639,15 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":717722}",
       "option_list": [
         0,
+        7,
         9,
         13,
         19,
         21,
         54,
-        117
+        117,
+        123,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -4525,16 +4660,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 83,
-      "max_two_pieces_discount": 88,
+      "two_pieces_discount": 81,
+      "max_two_pieces_discount": 86,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 83,
+      "recommend_two_pieces_discount": 81,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 88,
+          "max_two_pieces_discount": 86,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-8.8折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.8折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-8.6折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.6折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
@@ -4648,12 +4783,12 @@
       "reject_reason": null
     },
     {
-      "quantity": 1998,
+      "quantity": 1995,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        11100,
+        9324,
         12600
       ],
       "sku_price": [
@@ -4665,10 +4800,10 @@
         16800
       ],
       "promotion_goods": {
-        "min_price": 11100,
+        "min_price": 9324,
         "max_price": 12600,
-        "activity_id": "1499294650",
-        "activity_type": 3
+        "activity_id": "1652295050",
+        "activity_type": 101
       },
       "mall_id": 861673389,
       "mall_name": null,
@@ -4689,13 +4824,15 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-06/b22d896035a23367281ab0de329b55c1.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-04/2d71a43021cc9f239d719879eba98c0d.jpeg",
       "image_url": null,
-      "hd_url": "https://img.pddpic.com/mms-material-img/2022-05-29/61db8978-22cc-4e7c-a5fe-7223a5d119d1.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-06/1411cd0e2b78ce521c6d343cd74c25eb.jpeg",
+      "hd_url": "https://img.pddpic.com/mms-material-img/2022-05-29/06f05241-4c3f-409a-b4db-5c4fdcf13698.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-04/4aacd6fade79e4adf17bece4d62d377e.jpeg",
       "is_onsale": true,
-      "sold_quantity": 7,
-      "resource_hover": null,
+      "sold_quantity": 10,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -4706,8 +4843,8 @@
       "is_card_secret": false,
       "market_price": 23700,
       "out_goods_sn": "QT-25-008-55-58",
-      "sold_quantity_for_thirty_days": 7,
-      "fav_cnt": 22,
+      "sold_quantity_for_thirty_days": 9,
+      "fav_cnt": 21,
       "multi_treasure": false,
       "multi_treasure_status": 0,
       "if_new_goods": false,
@@ -4718,7 +4855,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1653831722,
       "pre_sale_time": 0,
@@ -4734,14 +4871,14 @@
         {
           "spec": "标准套餐",
           "skuId": 1182051896138,
-          "skuQuantity": 747,
+          "skuQuantity": 745,
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
           "normalPrice": 15800,
           "groupPrice": 14800,
-          "activityGroupPrice": 11100,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 9324,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/c1bf1dfc-e7cb-47b0-ba47-f55a2ed28c47.jpeg",
           "specIdList": [
             542126
           ],
@@ -4760,7 +4897,7 @@
           "normalPrice": 17800,
           "groupPrice": 16800,
           "activityGroupPrice": 12600,
-          "skuThumbUrl": null,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/a3eab374-f0d4-4304-883c-887b19135b46.jpeg",
           "specIdList": [
             254145372
           ],
@@ -4772,14 +4909,14 @@
         {
           "spec": "持久套餐",
           "skuId": 1182051896140,
-          "skuQuantity": 355,
+          "skuQuantity": 354,
           "skuSoldQuantity": null,
           "outSkuSn": "",
           "isOnsale": true,
           "normalPrice": 18800,
           "groupPrice": 16800,
           "activityGroupPrice": 12600,
-          "skuThumbUrl": null,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/7eaf1646-2c37-404f-b672-26cc1bec367e.jpeg",
           "specIdList": [
             62607913
           ],
@@ -4804,16 +4941,18 @@
       "sku_id_to_sold_out_config": null,
       "sold_out_to_presale_type": null,
       "vegetable_sold_quantity": 0,
-      "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":1000825}",
+      "attributes_1": "{\"folt\":0,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":1000825}",
       "option_list": [
         0,
         7,
         9,
         13,
-        19,
         21,
         54,
-        117
+        117,
+        132,
+        123,
+        122
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -4826,7 +4965,7 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 76,
+      "two_pieces_discount": 72,
       "max_two_pieces_discount": 80,
       "min_two_pieces_discount": 50,
       "recommend_two_pieces_discount": 76,
@@ -4951,11 +5090,11 @@
     {
       "quantity": 1074,
       "score": 0,
-      "resource": "",
+      "resource": "大促活动",
       "priority": null,
       "sku_group_price": [
-        29900,
-        30900
+        25116,
+        25956
       ],
       "sku_price": [
         30900,
@@ -4965,7 +5104,12 @@
         29900,
         30900
       ],
-      "promotion_goods": null,
+      "promotion_goods": {
+        "min_price": 25116,
+        "max_price": 25956,
+        "activity_id": "1652148940",
+        "activity_type": 101
+      },
       "mall_id": 861673389,
       "mall_name": null,
       "id": 368712287253,
@@ -4985,13 +5129,15 @@
       "event_type": 0,
       "display_priority": null,
       "reserve_quantity": 0,
-      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-09/eab8b12aab0c8d9d2a869444e5956f7a.jpeg",
+      "hd_thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/e8b62608c85146e28bbddc4bc42d8c5b.jpeg",
       "image_url": null,
-      "hd_url": "https://img.pddpic.com/mms-material-img/2022-05-29/9cae2daf-96f1-48cd-87d9-8f1b3534e6c3.jpeg.a.jpeg",
-      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-06-09/bef2818b16b535bf46f7984e77557f53.jpeg",
+      "hd_url": "https://img.pddpic.com/mms-material-img/2022-05-29/62d4dc3c-3113-4bec-9ae4-8fba1b59b0dc.jpeg.a.jpeg",
+      "thumb_url": "https://img.pddpic.com/gaudit-image/2022-07-02/dbd62688d8f4cc198863547285523309.jpeg",
       "is_onsale": true,
       "sold_quantity": 0,
-      "resource_hover": null,
+      "resource_hover": {
+        "大促活动": 0
+      },
       "off_sale_check": null,
       "onsale_check": null,
       "edit_check": null,
@@ -5014,7 +5160,7 @@
         "problemsDesc": [],
         "problemsCode": [],
         "status": 1,
-        "taskId": 340808445
+        "taskId": 354256177
       },
       "created_at": 1653819721,
       "pre_sale_time": 0,
@@ -5036,8 +5182,8 @@
           "isOnsale": true,
           "normalPrice": 30900,
           "groupPrice": 29900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 25116,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/4c5eb75c-d498-4ada-92a4-3435c8e803c3.png.a.jpeg",
           "specIdList": [
             542126
           ],
@@ -5055,8 +5201,8 @@
           "isOnsale": true,
           "normalPrice": 31900,
           "groupPrice": 30900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 25956,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/affa5500-8dd2-4e13-ae0d-5025f45184fc.png.a.jpeg",
           "specIdList": [
             254145372
           ],
@@ -5074,8 +5220,8 @@
           "isOnsale": true,
           "normalPrice": 32900,
           "groupPrice": 30900,
-          "activityGroupPrice": null,
-          "skuThumbUrl": null,
+          "activityGroupPrice": 25956,
+          "skuThumbUrl": "https://img.pddpic.com/mms-material-img/2022-05-29/e0db40c8-570a-49c1-94a1-ea6463da211c.png.a.jpeg",
           "specIdList": [
             62607913
           ],
@@ -5103,10 +5249,12 @@
       "attributes_1": "{\"folt\":1,\"appNew\":0,\"homeDeliver\":0,\"sh\":0,\"brandId\":114381}",
       "option_list": [
         0,
+        7,
         9,
         13,
         54,
-        117
+        117,
+        123
       ],
       "high_price_sku_count": null,
       "advice_price_label": null,
@@ -5119,16 +5267,16 @@
       "price_delta": null,
       "weighted_status": null,
       "festival_goods": false,
-      "two_pieces_discount": 85,
-      "max_two_pieces_discount": 90,
+      "two_pieces_discount": 83,
+      "max_two_pieces_discount": 88,
       "min_two_pieces_discount": 50,
-      "recommend_two_pieces_discount": 85,
+      "recommend_two_pieces_discount": 83,
       "two_pieces_rule_vo": {
         "two_pieces_percent_inform_vo": {
           "min_two_pieces_discount": 50,
-          "max_two_pieces_discount": 90,
+          "max_two_pieces_discount": 88,
           "recommend_two_pieces_discount": null,
-          "incorrect_inform_message": "应为5-9折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件9折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
+          "incorrect_inform_message": "应为5-8.8折，商品已设置店铺购物车、立减券、满减券、领券中心券等，优惠力度相当于1件8.8折，2件不能高于1件价格，满件折扣不能与上述优惠叠加，请放心哦～"
         },
         "close_two_pieces_inform_vo": {
           "can_close": false,
